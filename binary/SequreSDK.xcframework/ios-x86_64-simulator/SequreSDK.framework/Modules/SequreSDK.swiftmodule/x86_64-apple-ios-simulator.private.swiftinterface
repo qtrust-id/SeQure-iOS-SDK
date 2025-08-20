@@ -1,0 +1,109 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SequreSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import AVFoundation
+import Combine
+import DeveloperToolsSupport
+import Foundation
+@_exported import SequreSDK
+import Swift
+import SwiftUI
+import TensorFlowLiteTaskVision
+import UIKit
+import Vision
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct ErrorObject : Swift.Equatable {
+  public let title: Swift.String?
+  public let message: Swift.String?
+  public init(title: Swift.String?, message: Swift.String?)
+  public static func == (a: SequreSDK.ErrorObject, b: SequreSDK.ErrorObject) -> Swift.Bool
+}
+public func getUIColorSDK(named: Swift.String) -> UIKit.UIColor?
+public func getUIImageSDK(named: Swift.String) -> UIKit.UIImage?
+public func getStringSDK(_ key: Swift.String, localeIdentifier: Swift.String, tableName: Swift.String = "SequreSDKLocalizable") -> Swift.String
+public enum ClassificationEnv {
+  case prod
+  case stag
+  public static func == (a: SequreSDK.ClassificationEnv, b: SequreSDK.ClassificationEnv) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum DistanceResult {
+  case tooClose
+  case tooFar
+  case optimal
+  case notDetected
+  case outOfArea
+  public static func == (a: SequreSDK.DistanceResult, b: SequreSDK.DistanceResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ScanModel : Swift.Codable {
+  public let classification: SequreSDK.Classification?
+  public let object: SequreSDK.Canvas?
+  public let pid: Swift.String?
+  public let qrcode: SequreSDK.Qrcode?
+  public let message: Swift.String?
+  public init(classification: SequreSDK.Classification? = nil, object: SequreSDK.Canvas? = nil, pid: Swift.String? = nil, qrcode: SequreSDK.Qrcode? = nil, message: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Canvas : Swift.Codable {
+  public let status: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Classification : Swift.Codable {
+  public let label: Swift.String?
+  public let score: Swift.Double?
+  public init(label: Swift.String? = nil, score: Swift.Double? = nil)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct Qrcode : Swift.Codable {
+  public let text: Swift.String?
+  public init(text: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum StatusDialogScan {
+  case loadingAnalyzer
+  case loadingUploader
+  case loadingProcess
+  case noInternet
+  case error
+  case qrAuthenticated
+  case qrUnrecognized
+  case qrPoorImage
+  case qrUnknown
+  public static func == (a: SequreSDK.StatusDialogScan, b: SequreSDK.StatusDialogScan) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_Concurrency.MainActor @preconcurrency public struct QRScannerPage : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(saveToGallery: Swift.Bool, id: SwiftUICore.Binding<Swift.String>, localeIdentifier: SwiftUICore.Binding<Swift.String> = .constant("en"), pauseSession: SwiftUICore.Binding<Swift.Bool>, isDebugLayout: Swift.Bool = false, isDarkMode: Swift.Bool = false, flavor: SequreSDK.ClassificationEnv = ClassificationEnv.stag, onQRResult: @escaping (SequreSDK.StatusDialogScan?, SequreSDK.ScanModel?, SequreSDK.ErrorObject?) -> Swift.Void, returnScanModel: ((Swift.String, UIKit.UIImage, Swift.String?) -> Swift.Void)? = nil, onBack: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s9SequreSDK13QRScannerPageV4bodyQrvp", 0) __
+}
+public func getModelIdentifier() -> Swift.String
+public func getDeviceModelName() -> Swift.String
+public func isSpecialCase() -> Swift.Bool
+extension SequreSDK.ClassificationEnv : Swift.Equatable {}
+extension SequreSDK.ClassificationEnv : Swift.Hashable {}
+extension SequreSDK.DistanceResult : Swift.Equatable {}
+extension SequreSDK.DistanceResult : Swift.Hashable {}
+extension SequreSDK.StatusDialogScan : Swift.Equatable {}
+extension SequreSDK.StatusDialogScan : Swift.Hashable {}
+extension SequreSDK.QRScannerPage : Swift.Sendable {}
