@@ -48,10 +48,6 @@
 		<data>
 		Cq/QD7ZJy/pxg+qXgvmLxkYAeC8=
 		</data>
-		<key>glareAnimation.gif</key>
-		<data>
-		gguNLOQyP/hW2ZvHVyIccO468mQ=
-		</data>
 		<key>id.lproj/SequreSDKLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -132,13 +128,6 @@
 			<key>hash2</key>
 			<data>
 			nJFG4mXg1IxUmcch/UEmDWF3fSOXvQhqkDNNVcMfiGI=
-			</data>
-		</dict>
-		<key>glareAnimation.gif</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			K7WoAmgAO/JtkPBY8CgIJfWKYieraUcCEd1YBHX9x+E=
 			</data>
 		</dict>
 		<key>id.lproj/SequreSDKLocalizable.strings</key>
