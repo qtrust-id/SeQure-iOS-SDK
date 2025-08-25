@@ -10,6 +10,12 @@ Pod::Spec.new do |s|
   s.swift_versions = "5.0"
   s.source       = { :git => "https://github.com/dewangga18/sequre_binary_experimental.git", :tag => s.version.to_s }
 
+  s.resource_bundles = {
+    'SequreSDK' => [
+      'SupportedFiles/**/*.tflite'
+    ]
+  }
+
   s.dependency "TensorFlowLiteTaskVision"
   s.dependency "OpenCV", "4.3.0"
 
