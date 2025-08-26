@@ -285,23 +285,6 @@
       },
       {
         "kind": "Import",
-        "name": "TensorFlowLiteTaskVision",
-        "printedName": "TensorFlowLiteTaskVision",
-        "declKind": "Import",
-        "moduleName": "SequreSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Vision",
-        "printedName": "Vision",
-        "declKind": "Import",
-        "moduleName": "SequreSDK"
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -2284,6 +2267,23 @@
       },
       {
         "kind": "Import",
+        "name": "TensorFlowLiteTaskVision",
+        "printedName": "TensorFlowLiteTaskVision",
+        "declKind": "Import",
+        "moduleName": "SequreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "SequreSDK"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -3333,539 +3333,539 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/ViewModel\/SDKLogicScanViewModel.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/ViewModel\/SDKLogicScanViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 486,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/ViewModel\/SDKLogicScanViewModel.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/ViewModel\/SDKLogicScanViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 526,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/ViewModel\/SDKLogicScanViewModel.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/ViewModel\/SDKLogicScanViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 560,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/ViewModel\/SDKLogicScanViewModel.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/ViewModel\/SDKLogicScanViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 602,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Helper\/ImageOperation.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Helper\/ImageOperation.swift",
       "kind": "FloatLiteral",
       "offset": 1673,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Helper\/ImageOperation.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Helper\/ImageOperation.swift",
       "kind": "StringLiteral",
       "offset": 2123,
       "length": 6,
       "value": "\"jpeg\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Helper\/ImageOperation.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Helper\/ImageOperation.swift",
       "kind": "BooleanLiteral",
       "offset": 3387,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Overlay\/ScanQROverlay.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Overlay\/ScanQROverlay.swift",
       "kind": "BooleanLiteral",
       "offset": 923,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Overlay\/ScanQROverlay.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Overlay\/ScanQROverlay.swift",
       "kind": "BooleanLiteral",
       "offset": 1000,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Font\/CustomFont.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Font\/CustomFont.swift",
       "kind": "StringLiteral",
       "offset": 1164,
       "length": 18,
       "value": "\"Montserrat-Light\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Font\/CustomFont.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Font\/CustomFont.swift",
       "kind": "StringLiteral",
       "offset": 1283,
       "length": 20,
       "value": "\"Montserrat-Regular\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Font\/CustomFont.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Font\/CustomFont.swift",
       "kind": "StringLiteral",
       "offset": 1405,
       "length": 19,
       "value": "\"Montserrat-Medium\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Font\/CustomFont.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Font\/CustomFont.swift",
       "kind": "StringLiteral",
       "offset": 1523,
       "length": 17,
       "value": "\"Montserrat-Bold\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Font\/CustomFont.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Font\/CustomFont.swift",
       "kind": "StringLiteral",
       "offset": 1638,
       "length": 18,
       "value": "\"Montserrat-Black\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Helper\/BundleReference.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Helper\/BundleReference.swift",
       "kind": "StringLiteral",
       "offset": 1813,
       "length": 22,
       "value": "\"SequreSDKLocalizable\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Overlay\/LabelOverlay.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Overlay\/LabelOverlay.swift",
       "kind": "StringLiteral",
       "offset": 349,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Helper\/DistanceDetector.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Helper\/DistanceDetector.swift",
       "kind": "FloatLiteral",
       "offset": 571,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Helper\/DistanceDetector.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Helper\/DistanceDetector.swift",
       "kind": "FloatLiteral",
       "offset": 623,
       "length": 4,
       "value": "0.67"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Helper\/DistanceDetector.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Helper\/DistanceDetector.swift",
       "kind": "FloatLiteral",
       "offset": 843,
       "length": 3,
       "value": "2.1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Helper\/DistanceDetector.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Helper\/DistanceDetector.swift",
       "kind": "FloatLiteral",
       "offset": 887,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Helper\/DistanceDetector.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Helper\/DistanceDetector.swift",
       "kind": "IntegerLiteral",
       "offset": 927,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Overlay\/BoundingBoxView.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Overlay\/BoundingBoxView.swift",
       "kind": "Array",
       "offset": 626,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Overlay\/BoundingBoxView.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Overlay\/BoundingBoxView.swift",
       "kind": "FloatLiteral",
       "offset": 827,
       "length": 3,
       "value": "1.3"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Overlay\/BoundingBoxView.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Overlay\/BoundingBoxView.swift",
       "kind": "FloatLiteral",
       "offset": 911,
       "length": 3,
       "value": "1.3"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Overlay\/BoundingBoxView.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Overlay\/BoundingBoxView.swift",
       "kind": "FloatLiteral",
       "offset": 1009,
       "length": 3,
       "value": "1.5"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Overlay\/BoundingBoxView.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Overlay\/BoundingBoxView.swift",
       "kind": "FloatLiteral",
       "offset": 1060,
       "length": 3,
       "value": "1.7"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Overlay\/BoundingBoxView.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Overlay\/BoundingBoxView.swift",
       "kind": "BooleanLiteral",
       "offset": 1300,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Overlay\/BoundingBoxView.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Overlay\/BoundingBoxView.swift",
       "kind": "BooleanLiteral",
       "offset": 4893,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Overlay\/BoundingBoxView.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Overlay\/BoundingBoxView.swift",
       "kind": "BooleanLiteral",
       "offset": 7447,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/CameraStream\/ViewController.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/CameraStream\/ViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 396,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/CameraStream\/ViewController.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 14,
       "value": "\"sessionQueue\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/CameraStream\/ViewController.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/CameraStream\/ViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1478,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/CameraStream\/ViewController.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/CameraStream\/ViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1579,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/CameraStream\/ViewController.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
       "offset": 4769,
       "length": 33,
       "value": "\"No suitable camera device found\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/CameraStream\/ViewController.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
       "offset": 5307,
       "length": 47,
       "value": "\"Failed to create video device input: \""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/CameraStream\/ViewController.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
       "offset": 5353,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/CameraStream\/ViewController.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
       "offset": 5821,
       "length": 12,
       "value": "\"videoQueue\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/CameraStream\/ViewController.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/CameraStream\/ViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 5902,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/CameraStream\/ViewController.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/CameraStream\/ViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 10153,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Utils\/Services\/MultipartRequest.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Utils\/Services\/MultipartRequest.swift",
       "kind": "StringLiteral",
       "offset": 561,
       "length": 6,
       "value": "\"\r\n\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Utils\/Helper\/BarcodeHelper.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Utils\/Helper\/BarcodeHelper.swift",
       "kind": "Array",
       "offset": 159,
       "length": 31,
       "value": "[\"qtru.st\", \"qtr.pw\", \"ahm.to\"]"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/CameraStream\/QRCameraFeedController.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/CameraStream\/QRCameraFeedController.swift",
       "kind": "BooleanLiteral",
       "offset": 446,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/CameraStream\/QRCameraFeedController.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/CameraStream\/QRCameraFeedController.swift",
       "kind": "BooleanLiteral",
       "offset": 544,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Component\/GlareAlertComponent.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Component\/GlareAlertComponent.swift",
       "kind": "BooleanLiteral",
       "offset": 295,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "Array",
       "offset": 446,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
       "offset": 557,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
       "offset": 670,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
       "offset": 774,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "IntegerLiteral",
       "offset": 940,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "IntegerLiteral",
       "offset": 984,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "IntegerLiteral",
       "offset": 1028,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "IntegerLiteral",
       "offset": 1072,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
       "offset": 1534,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "FloatLiteral",
       "offset": 2570,
       "length": 4,
       "value": "50.0"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
       "offset": 2898,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
       "offset": 3000,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
       "offset": 3118,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
       "offset": 3226,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
       "offset": 3332,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "StringLiteral",
       "offset": 4216,
       "length": 4,
       "value": "\"en\""
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
       "offset": 4290,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Features\/Scan\/View\/Pages\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
       "offset": 4324,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Utils\/Extensions\/ToastExtension.swift",
+      "filePath": "\/Users\/ivan\/Documents\/work\/venturo\/qtrust\/ios\/sequre-ios-sdk\/SequreSDK\/Utils\/Extensions\/ToastExtension.swift",
       "kind": "IntegerLiteral",
       "offset": 2064,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 13,
       "value": "\"Color003A6F\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 775,
       "length": 13,
       "value": "\"Color232333\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 920,
       "length": 13,
       "value": "\"Color3E405F\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1065,
       "length": 13,
       "value": "\"Color484848\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1210,
       "length": 13,
       "value": "\"Color4A4A4A\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1355,
       "length": 13,
       "value": "\"Color808095\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1498,
       "length": 12,
       "value": "\"PrimaryApp\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1642,
       "length": 13,
       "value": "\"Quarternary\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1896,
       "length": 15,
       "value": "\"IconArrowBack\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2057,
       "length": 20,
       "value": "\"IconArrowBackBlack\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2217,
       "length": 17,
       "value": "\"IconFlashActive\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2384,
       "length": 22,
       "value": "\"IconFlashActiveBlack\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2550,
       "length": 19,
       "value": "\"IconFlashInactive\""
     },
     {
-      "filePath": "\/Users\/admin\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-eohmssyoovceqvameadlcfeohbdd\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/ivan\/Library\/Developer\/Xcode\/DerivedData\/SequreSDK-drcbixjshkdeodgmwokuukdpvzld\/Build\/Intermediates.noindex\/ArchiveIntermediates\/SequreSDK\/IntermediateBuildFilesPath\/SequreSDK.build\/Release-iphoneos\/SequreSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2723,
       "length": 24,
