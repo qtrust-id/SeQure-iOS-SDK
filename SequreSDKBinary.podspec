@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SequreSDKBinary"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "Sequre Scanner SDK framework."
   s.description  = "Sequre Scanner SDK for detecting QR codes."
   s.homepage     = "https://github.com/dewangga18/sequre_binary_experimental"
@@ -12,6 +12,13 @@ Pod::Spec.new do |s|
 
   s.dependency "TensorFlowLiteTaskVision"
   s.dependency "OpenCV", "4.3.0"
+
+  s.resources = ["SupportedFiles/**/*.tflite"]
+  s.resource_bundles = {
+    'SequreSDKAssets' => [
+      'SupportedFiles/**/*.gif', 
+    ]
+  }
 
   s.vendored_frameworks = "binary/SequreSDK.xcframework"
 
