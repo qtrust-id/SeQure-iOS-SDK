@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uE2JvdBMVwpVBPkXTUu2M0VrVB8=
+		eNGY98wDWcK0ZIn+ZRydjQO+uHQ=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4SGaH87xvvfQ8EJP5h+i1WLZ2k8=
+		roykuhJklkQJUwarILcHXREOmPw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,7 +90,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/enPqbJSVBddLNHw/CFzEIfC5AB8n2QK5wzSqlhw9cY=
+			5B7YFaq7BCFY1XQd6z590mkcVdpYk2Bby13I/nWhZC0=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LxiDxzDBrBO1UQD7X0uFKxKgQBPoRRi3aBDK+flLZgM=
+			ohHNJmfqiskHoMnmXnWbsxlPECQ0ANfbuRCEBaa8TdU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

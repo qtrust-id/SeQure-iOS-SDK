@@ -4523,44 +4523,23 @@
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/CustomFont.swift",
       "kind": "StringLiteral",
-      "offset": 423,
-      "length": 13,
-      "value": "\"Inter-Light\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/CustomFont.swift",
-      "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 438,
       "length": 15,
       "value": "\"Inter-Regular\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/CustomFont.swift",
       "kind": "StringLiteral",
-      "offset": 562,
+      "offset": 508,
       "length": 14,
       "value": "\"Inter-Medium\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/CustomFont.swift",
       "kind": "StringLiteral",
-      "offset": 629,
+      "offset": 575,
       "length": 12,
       "value": "\"Inter-Bold\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/CustomFont.swift",
-      "kind": "StringLiteral",
-      "offset": 698,
-      "length": 16,
-      "value": "\"Inter-SemiBold\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/CustomFont.swift",
-      "kind": "StringLiteral",
-      "offset": 768,
-      "length": 13,
-      "value": "\"Inter-Black\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/BundleReference.swift",
