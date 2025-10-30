@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "QtrustSequreSDK"
-  s.version               = "1.0.2"
+  s.version               = "1.0.3"
   s.summary               = "Sequre Scanner SDK framework."
   s.description           = "Sequre Scanner SDK for detecting QR codes."
   s.homepage              = "https://github.com/dewangga18/qtrust_sequre_sdk"
@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
   }
 
   s.vendored_frameworks = "binary/SequreSDK.xcframework"
+  s.static_framework = true
 
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
