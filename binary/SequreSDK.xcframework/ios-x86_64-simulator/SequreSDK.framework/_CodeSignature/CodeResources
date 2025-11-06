@@ -26,23 +26,23 @@
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pkw9O3SIb6w59yt7O6QlB2KIQJg=
+		m3vIUqaCV+5h+7+g6Ym6ok/yhbc=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rW6O9kwVoc+O/kItDu1lYNaLieg=
+		5EsfFNWWLQz24wm066v5FZ0YecQ=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		cpBZJ/fwgnLxICIiq1cPpmCH1AQ=
+		gEElVeZqp4ubzwIV5Vtynb1RxRc=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rW6O9kwVoc+O/kItDu1lYNaLieg=
+		5EsfFNWWLQz24wm066v5FZ0YecQ=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2IHTxCVLSDRPDkqkydK+pY8/3K4=
+		bH4fifsNXW6EtZj8pJZuobVaRtg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -101,35 +101,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			97P96dXXNjsv+r2lUrcUrNghEhYCsCdq3yRO4TCR+PU=
+			7CRNHIJ/KDPibnNNXIEvR7cpBsr8L8+rMc+GNvwB5M0=
 			</data>
 		</dict>
 		<key>Modules/SequreSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QU7uMX6ror5fNWsmxzgM9OZOb8P+nT2bqmrocycikXw=
+			vkW6aZIkAXoDAUauwhFFTGcmh/V6GbiG3n369TeZP1w=
 			</data>
 		</dict>
 		<key>Modules/SequreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cL2JNM6TfE+gi3wPu7Oduwx5irbcQOwJ4dQMdlG4k90=
+			DTcQp3xGQaWSJ4/3OX7a/5aHJy9ksjYfVB8L/4FjKQg=
 			</data>
 		</dict>
 		<key>Modules/SequreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QU7uMX6ror5fNWsmxzgM9OZOb8P+nT2bqmrocycikXw=
+			vkW6aZIkAXoDAUauwhFFTGcmh/V6GbiG3n369TeZP1w=
 			</data>
 		</dict>
 		<key>Modules/SequreSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HfwF4Bhr9kzBdS+IjCGM6qS2HqvBjcJBiWtYEcY6GSY=
+			PC21qBamTC4s7umvjxFzLPJ9nxHks1Y4QpJXO193FwE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

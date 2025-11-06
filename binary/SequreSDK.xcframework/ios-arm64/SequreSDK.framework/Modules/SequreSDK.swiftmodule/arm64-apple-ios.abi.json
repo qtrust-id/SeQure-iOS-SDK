@@ -3670,6 +3670,474 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "QRAuthenticationResult",
+        "printedName": "QRAuthenticationResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isExist",
+            "printedName": "isExist",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK22QRAuthenticationResultV7isExistSbvp",
+            "mangledName": "$s9SequreSDK22QRAuthenticationResultV7isExistSbvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK22QRAuthenticationResultV7isExistSbvg",
+                "mangledName": "$s9SequreSDK22QRAuthenticationResultV7isExistSbvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSquare",
+            "printedName": "isSquare",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK22QRAuthenticationResultV8isSquareSbvp",
+            "mangledName": "$s9SequreSDK22QRAuthenticationResultV8isSquareSbvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK22QRAuthenticationResultV8isSquareSbvg",
+                "mangledName": "$s9SequreSDK22QRAuthenticationResultV8isSquareSbvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK22QRAuthenticationResultV8isSquareSbvs",
+                "mangledName": "$s9SequreSDK22QRAuthenticationResultV8isSquareSbvs",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK22QRAuthenticationResultV8isSquareSbvM",
+                "mangledName": "$s9SequreSDK22QRAuthenticationResultV8isSquareSbvM",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAuthentic",
+            "printedName": "isAuthentic",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK22QRAuthenticationResultV11isAuthenticSbvp",
+            "mangledName": "$s9SequreSDK22QRAuthenticationResultV11isAuthenticSbvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK22QRAuthenticationResultV11isAuthenticSbvg",
+                "mangledName": "$s9SequreSDK22QRAuthenticationResultV11isAuthenticSbvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confidence",
+            "printedName": "confidence",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK22QRAuthenticationResultV10confidenceSdvp",
+            "mangledName": "$s9SequreSDK22QRAuthenticationResultV10confidenceSdvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK22QRAuthenticationResultV10confidenceSdvg",
+                "mangledName": "$s9SequreSDK22QRAuthenticationResultV10confidenceSdvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pixelsPerModule",
+            "printedName": "pixelsPerModule",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK22QRAuthenticationResultV15pixelsPerModuleSdvp",
+            "mangledName": "$s9SequreSDK22QRAuthenticationResultV15pixelsPerModuleSdvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK22QRAuthenticationResultV15pixelsPerModuleSdvg",
+                "mangledName": "$s9SequreSDK22QRAuthenticationResultV15pixelsPerModuleSdvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "qrToFrameRatio",
+            "printedName": "qrToFrameRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK22QRAuthenticationResultV14qrToFrameRatioSdvp",
+            "mangledName": "$s9SequreSDK22QRAuthenticationResultV14qrToFrameRatioSdvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK22QRAuthenticationResultV14qrToFrameRatioSdvg",
+                "mangledName": "$s9SequreSDK22QRAuthenticationResultV14qrToFrameRatioSdvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "edgeSharpness",
+            "printedName": "edgeSharpness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK22QRAuthenticationResultV13edgeSharpnessSdvp",
+            "mangledName": "$s9SequreSDK22QRAuthenticationResultV13edgeSharpnessSdvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK22QRAuthenticationResultV13edgeSharpnessSdvg",
+                "mangledName": "$s9SequreSDK22QRAuthenticationResultV13edgeSharpnessSdvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "zoomConsistency",
+            "printedName": "zoomConsistency",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK22QRAuthenticationResultV15zoomConsistencySdvp",
+            "mangledName": "$s9SequreSDK22QRAuthenticationResultV15zoomConsistencySdvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK22QRAuthenticationResultV15zoomConsistencySdvg",
+                "mangledName": "$s9SequreSDK22QRAuthenticationResultV15zoomConsistencySdvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reason",
+            "printedName": "reason",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK22QRAuthenticationResultV6reasonSSvp",
+            "mangledName": "$s9SequreSDK22QRAuthenticationResultV6reasonSSvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK22QRAuthenticationResultV6reasonSSvg",
+                "mangledName": "$s9SequreSDK22QRAuthenticationResultV6reasonSSvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9SequreSDK22QRAuthenticationResultV",
+        "mangledName": "$s9SequreSDK22QRAuthenticationResultV",
+        "moduleName": "SequreSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",

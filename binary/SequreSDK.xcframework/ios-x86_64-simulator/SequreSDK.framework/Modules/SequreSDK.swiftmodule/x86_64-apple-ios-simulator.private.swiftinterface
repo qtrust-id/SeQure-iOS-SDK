@@ -130,6 +130,17 @@ public enum StatusDialogScan {
     get
   }
 }
+public struct QRAuthenticationResult {
+  public let isExist: Swift.Bool
+  public var isSquare: Swift.Bool
+  public let isAuthentic: Swift.Bool
+  public let confidence: Swift.Double
+  public let pixelsPerModule: Swift.Double
+  public let qrToFrameRatio: Swift.Double
+  public let edgeSharpness: Swift.Double
+  public let zoomConsistency: Swift.Double
+  public let reason: Swift.String
+}
 @_Concurrency.MainActor @preconcurrency public struct QRScannerPage : SwiftUICore.View {
   #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(gmapsKey: Swift.String? = nil, storeLocation: ((SequreSDK.DefaultLocation?) -> Swift.Void)? = nil, saveToGallery: Swift.Bool = false, id: SwiftUICore.Binding<Swift.String>, localeIdentifier: Swift.String = "en", pauseSession: SwiftUICore.Binding<Swift.Bool>, isDebugLayout: Swift.Bool = false, isDarkMode: Swift.Bool = false, flavor: SequreSDK.ClassificationEnv = ClassificationEnv.stag, onQRResult: @escaping (SequreSDK.StatusDialogScan?, SequreSDK.ScanModel?, SequreSDK.ErrorObject?) -> Swift.Void, returnScanModel: ((Swift.String, UIKit.UIImage, Swift.String?) -> Swift.Void)? = nil, onBack: (() -> Swift.Void)? = nil, deviceIsNotSupported: ((Swift.Bool) -> Swift.Void)? = nil)
