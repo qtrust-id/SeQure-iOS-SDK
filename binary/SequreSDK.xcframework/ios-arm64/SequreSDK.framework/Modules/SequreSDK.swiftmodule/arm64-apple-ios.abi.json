@@ -4459,71 +4459,29 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 429,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 382,
-      "length": 17,
-      "value": "\"useLensPosition\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 467,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 507,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 537,
+      "offset": 740,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 626,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 722,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 762,
+      "offset": 780,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 796,
+      "offset": 814,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 838,
+      "offset": 856,
       "length": 5,
       "value": "false"
     },
