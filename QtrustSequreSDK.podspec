@@ -10,6 +10,9 @@ Pod::Spec.new do |s|
   s.swift_versions        = "6.0"
   s.source                = { :git => "https://github.com/dewangga18/qtrust_sequre_sdk.git", :tag => s.version.to_s }        
 
+  s.dependency "TensorFlowLiteTaskVision", "0.4.3"
+  s.dependency "OpenCV", "4.3.0"
+
   s.resource_bundles = {
     'SequreSDKAssets' => [
       'SupportedFiles/**/*.gif', 
@@ -30,12 +33,9 @@ Pod::Spec.new do |s|
 
   s.subspec 'Full' do |full|
     full.vendored_frameworks = 'binary/SequreSDK.xcframework'
-    full.dependency "OpenCV", "4.3.0"
-    full.dependency "TensorFlowLiteTaskVision", "0.4.3"
   end
 
   s.subspec 'Lite' do |lite|
     lite.vendored_frameworks = 'binary/SequreSDKLite.xcframework'
-    lite.dependency "TensorFlowLiteTaskVision", "0.4.3"
   end
 end
