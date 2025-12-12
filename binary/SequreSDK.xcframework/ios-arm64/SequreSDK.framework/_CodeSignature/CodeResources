@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		GCAQRX7ZPC6Y3I07bryQKXUDi84=
+		O5BPReZ/8hLN5/Iz+GHw4TVo9nY=
 		</data>
 		<key>Headers/OpenCVWrapper.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/SequreSDK-Swift.h</key>
 		<data>
-		dt1mhJZIZi37R71QxD7YfFhaW9s=
+		a5NWPBY2DAUgyA0CheS5zO2SZf8=
 		</data>
 		<key>Headers/SequreSDK.h</key>
 		<data>
@@ -22,27 +22,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uiMOz7ep8L59mqOtpmPoA0IwNS4=
+		ogwzbpApifuq3Y8D9RZmxZFBFM0=
+		</data>
+		<key>Inter-Bold.otf</key>
+		<data>
+		w3a1mkj6zAKbmjhMyG8CmSshceo=
+		</data>
+		<key>Inter-Medium.otf</key>
+		<data>
+		aZN1xZChh5veG1OnlJsmWSku47A=
+		</data>
+		<key>Inter-Regular.otf</key>
+		<data>
+		79hGaXkw2IqwE7ZNTg8hKc1+lx8=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		j0q8uvyqN6Xx+oZHaZ8wxny/pyc=
+		SQ9MWfsIUdohdrLI0FfHchzBW9c=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		4XTmaxlCOvhnecmlmZutgakSDkg=
+		hJW1kxOWZhiQSZz+OPNfvp3JAwE=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		UNW+exDMLUm5uPSPgBi19UkXKRQ=
+		i5+u8rHk3onOlrW1338ZxI0QoCg=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		4XTmaxlCOvhnecmlmZutgakSDkg=
+		hJW1kxOWZhiQSZz+OPNfvp3JAwE=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		rm7fjNYwFI/nd416BanYjbntQhM=
+		MnonNgwYQTXqXO/hhpXJ+PqRRX0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,6 +69,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>glareAnimation.gif</key>
+		<data>
+		gguNLOQyP/hW2ZvHVyIccO468mQ=
+		</data>
 		<key>id.lproj/SequreSDKLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -73,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wR4ANKH24GIWt8fHdDTkhsG9eYk28GAHMU3fKMRp9eI=
+			Kp45RJBP+Va/rDEJL8g+15Yc9GvxzokESDQB8MQJsIU=
 			</data>
 		</dict>
 		<key>Headers/OpenCVWrapper.h</key>
@@ -87,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MFJ+ui5uAIDSAKk2x8nXYkRq4PULLG99OCE6el3Xb3M=
+			qiiEaqlfzM20SkWodtG+NcpWUpt1HL+/z6um5NOlioI=
 			</data>
 		</dict>
 		<key>Headers/SequreSDK.h</key>
@@ -97,39 +113,60 @@
 			V3vC3lZ6chN+pp05GfkXgB16Vkjc0mIPIpBfTV1/OiA=
 			</data>
 		</dict>
+		<key>Inter-Bold.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oejQKLcAeggNOwgaY2cSuY1I7spnzyRyT+vZRHUh4og=
+			</data>
+		</dict>
+		<key>Inter-Medium.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			E6qUkSmatw8wj86BHwekt3SrjbO4ujMvW1WfLMmcDQk=
+			</data>
+		</dict>
+		<key>Inter-Regular.otf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VGwxVZEajoTDIJWPa7Vf+O64G/MtYMGNmAXgB/q+MOA=
+			</data>
+		</dict>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ps3VLyNsjpmpImM1HdX1c1f7to3483UZxe6woYO8A8=
+			bHbZNfyW3vUU/9SXP9/UWyToVbB/7Ncn9pXOBFPxTOc=
 			</data>
 		</dict>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/16K3mezNjk3wy9kAJwJHBNgWctyi5HuaItcLxXsILE=
+			BPDa5LMrIX8CBExV1cbG724j4PIxMgE3kYlRDGVauzA=
 			</data>
 		</dict>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vNGAkQaEnKZVH8G4OkQKQJVk5SBNkmM6Ku+qfGQeHkw=
+			GQkm7jbgtx4cRrxOb1CuySY1Yo4MzgYrvHwgPqZPHn8=
 			</data>
 		</dict>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/16K3mezNjk3wy9kAJwJHBNgWctyi5HuaItcLxXsILE=
+			BPDa5LMrIX8CBExV1cbG724j4PIxMgE3kYlRDGVauzA=
 			</data>
 		</dict>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s8ZSDDReNWcVuCsg1HdHV2i+RdcHyNtATCxmkBb4j2M=
+			69HF12Kgw/2izZkZTy7Lshfav7gKtc/uqrpxjWxsnDI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -147,6 +184,13 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>glareAnimation.gif</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K7WoAmgAO/JtkPBY8CgIJfWKYieraUcCEd1YBHX9x+E=
+			</data>
 		</dict>
 		<key>id.lproj/SequreSDKLocalizable.strings</key>
 		<dict>

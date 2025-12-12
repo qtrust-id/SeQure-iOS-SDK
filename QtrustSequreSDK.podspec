@@ -1,17 +1,14 @@
 Pod::Spec.new do |s|
   s.name                  = "QtrustSequreSDK"
-  s.version               = "1.0.4"
+  s.version               = "1.0.5"
   s.summary               = "Sequre Scanner SDK framework."
   s.description           = "Sequre Scanner SDK for detecting QR codes."
   s.homepage              = "https://github.com/dewangga18/qtrust_sequre_sdk"
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
   s.author                = { "Aaron Evanjulio Dewangga" => "aaronevanjulio18@gmail.com" }
   s.ios.deployment_target = '15.0'
-  s.swift_versions        = "5.0"
+  s.swift_versions        = "6.0"
   s.source                = { :git => "https://github.com/dewangga18/qtrust_sequre_sdk.git", :tag => s.version.to_s }        
-
-  s.dependency "TensorFlowLiteTaskVision", "0.4.3"
-  s.dependency "OpenCV", "4.3.0"
 
   s.resource_bundles = {
     'SequreSDKAssets' => [
@@ -19,7 +16,6 @@ Pod::Spec.new do |s|
     ]
   }
 
-  # s.vendored_frameworks = "binary/SequreSDK.xcframework"
   s.static_framework = true
 
   s.pod_target_xcconfig = {
@@ -34,9 +30,12 @@ Pod::Spec.new do |s|
 
   s.subspec 'Full' do |full|
     full.vendored_frameworks = 'binary/SequreSDK.xcframework'
+    full.dependency "OpenCV", "4.3.0"
+    full.dependency "TensorFlowLiteTaskVision", "0.4.3"
   end
 
   s.subspec 'Lite' do |lite|
     lite.vendored_frameworks = 'binary/SequreSDKLite.xcframework'
+    lite.dependency "TensorFlowLiteTaskVision", "0.4.3"
   end
 end

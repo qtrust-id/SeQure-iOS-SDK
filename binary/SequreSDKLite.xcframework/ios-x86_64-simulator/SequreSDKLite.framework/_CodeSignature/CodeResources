@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		GCAQRX7ZPC6Y3I07bryQKXUDi84=
+		O5BPReZ/8hLN5/Iz+GHw4TVo9nY=
 		</data>
 		<key>Headers/SequreSDK.h</key>
 		<data>
@@ -14,31 +14,31 @@
 		</data>
 		<key>Headers/SequreSDKLite-Swift.h</key>
 		<data>
-		jgAKGw5JY3qylNo8o3apnAuurmo=
+		XmhaV0FiiqPHljbUSp7A+C0IM1U=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3EaMZITGzU0Wtt8KuoOvAN9GF6k=
+		mXjU1qiMBxieGMMyhkbe6p0yUZk=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+Xm5e8wqkSvmgVulXjAbFdjKKqo=
+		JfCWaIR6s3MJUmHq/+JV69bBPU4=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ys+2ckGPlR6llnr6wNI+TP2KSlk=
+		G645YnPoAE4JVxFTbbB4NX2i5MU=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lVMhVA3eUaMPPfV6HVeY4STBsUw=
+		5SRX2aXLbAABBU5SkKZilWHK8g8=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ys+2ckGPlR6llnr6wNI+TP2KSlk=
+		G645YnPoAE4JVxFTbbB4NX2i5MU=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		21e3v2xnsTPD794nxpAI7cPqynM=
+		3q/WAdNJaq60ShplI98YTlHrb7U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -53,6 +53,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>glareAnimation.gif</key>
+		<data>
+		gguNLOQyP/hW2ZvHVyIccO468mQ=
+		</data>
 		<key>id.lproj/SequreSDKLocalizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -69,7 +73,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wR4ANKH24GIWt8fHdDTkhsG9eYk28GAHMU3fKMRp9eI=
+			Kp45RJBP+Va/rDEJL8g+15Yc9GvxzokESDQB8MQJsIU=
 			</data>
 		</dict>
 		<key>Headers/SequreSDK.h</key>
@@ -83,42 +87,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0y94tvD27KFjm73p1n+JYKYS0WExwHBJfHq3+wjpjzY=
+			83ZJXITYJURE7T1HUqdDcc2YXbnA4wHGwMppcM0rkiE=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			etoE+8tUNVQQV5uTkqXscjizewuUWIcy3i4VkEEaFk8=
+			B18daVcbllnvDr1sV/bTiDlSo9JrX+i7/FZiENyPeJw=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jUHWTXI9gwGeq0AQDu2336Z/n0wzvCKTA4w4HwVYazY=
+			A1NPDhN9N0N3hozjY15JCN059w+4ppnlph65YXDgeVM=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pQpi1cINvkd5Ln4KVejaqlaOAg6bM9mmfB3Rsr4gHMg=
+			1/2QmFIOo7vzhJZFrRfvKcYgyqUG38cZb0z4HNB3szo=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jUHWTXI9gwGeq0AQDu2336Z/n0wzvCKTA4w4HwVYazY=
+			A1NPDhN9N0N3hozjY15JCN059w+4ppnlph65YXDgeVM=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ztowJnA6SJxo0N97wDk8yOJ8WEtVuODz+YEpmqJpIrQ=
+			2B09k0b3LNy8E5/rke7RxeRtx6HjqUSCJ3ZyeUp6mhE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -136,6 +140,13 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>glareAnimation.gif</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K7WoAmgAO/JtkPBY8CgIJfWKYieraUcCEd1YBHX9x+E=
+			</data>
 		</dict>
 		<key>id.lproj/SequreSDKLocalizable.strings</key>
 		<dict>

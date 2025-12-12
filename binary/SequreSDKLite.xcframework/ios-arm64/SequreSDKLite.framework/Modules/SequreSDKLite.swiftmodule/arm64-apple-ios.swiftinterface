@@ -1,14 +1,19 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SequreSDKLite
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+// swift-compiler-version: Apple Swift version 6.2.1 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -Osize -enable-experimental-feature DebugDescriptionMacro -module-name SequreSDKLite
+// swift-module-flags-ignorable: -strict-memory-safety -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVFoundation
 import Combine
+import CoreFoundation
 import CoreGraphics
+import CoreImage
 import CoreLocation
+import CoreMedia
 import CoreText
+import CoreVideo
 import DeveloperToolsSupport
 import Foundation
+import Network
 import Swift
 import SwiftUI
 import TensorFlowLiteTaskVision
@@ -17,7 +22,7 @@ import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct ErrorObject : Swift.Equatable {
+public struct ErrorObject : Swift.Equatable, Swift.Sendable {
   public let title: Swift.String?
   public let message: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
@@ -25,9 +30,22 @@ public struct ErrorObject : Swift.Equatable {
   #endif
   public static func == (a: SequreSDKLite.ErrorObject, b: SequreSDKLite.ErrorObject) -> Swift.Bool
 }
-@_hasMissingDesignatedInitializers public class FontRegistrar {
-  public static func register()
-  @objc deinit
+public struct SequreRepositorySDK : Swift.Sendable {
+}
+public enum SDKNetworkError : Foundation.LocalizedError, Swift.Sendable {
+  case invalidURL
+  case noData
+  case decodingFailed(any Swift.Error)
+  case httpError(statusCode: Swift.Int)
+  case noInternetConnection
+  case timeout
+  case hostUnreachable
+  case unknown(any Swift.Error)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
+    get
+  }
+  #endif
 }
 #if compiler(>=5.3) && $NonescapableTypes
 public func getUIColorSDK(named: Swift.String) -> UIKit.UIColor?
@@ -36,26 +54,26 @@ public func getUIColorSDK(named: Swift.String) -> UIKit.UIColor?
 public func getUIImageSDK(named: Swift.String) -> UIKit.UIImage?
 #endif
 public func getStringSDK(_ key: Swift.String, localeIdentifier: Swift.String, tableName: Swift.String = "SequreSDKLocalizable") -> Swift.String
-public struct DefaultLocationResponse : Swift.Codable {
-  public let location: SequreSDKLite.DefaultLocation?
+public struct DefaultLocationResponse : Swift.Codable, Swift.Sendable {
+  public var location: SequreSDKLite.DefaultLocation?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct DefaultLocation : Swift.Codable {
-  public let lat: Swift.Double?, lng: Swift.Double?
+public struct DefaultLocation : Swift.Codable, Swift.Sendable {
+  public var lat: Swift.Double?, lng: Swift.Double?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public enum ClassificationEnv {
+@_Concurrency.MainActor public enum ClassificationEnv {
   case prod
   case stag
-  public static func == (a: SequreSDKLite.ClassificationEnv, b: SequreSDKLite.ClassificationEnv) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  nonisolated public static func == (a: SequreSDKLite.ClassificationEnv, b: SequreSDKLite.ClassificationEnv) -> Swift.Bool
+  nonisolated public func hash(into hasher: inout Swift.Hasher)
+  nonisolated public var hashValue: Swift.Int {
     get
   }
 }
-public enum DistanceResult {
+public enum DistanceResult : Swift.Sendable {
   case tooClose
   case tooFar
   case optimal
@@ -67,10 +85,50 @@ public enum DistanceResult {
     get
   }
 }
-public struct Result {
-  public let detections: [TensorFlowLiteTaskVision.Detection]
+public struct Result : Swift.Sendable {
 }
-public struct ScanModel : Swift.Codable {
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class FontRegistrar : Swift.Sendable {
+  @_Concurrency.MainActor public static let shared: SequreSDKLite.FontRegistrar
+  @_Concurrency.MainActor final public func ensureRegistered()
+  @_Concurrency.MainActor public static func register()
+  @objc deinit
+}
+public struct TFDetection : Swift.Equatable, Swift.Sendable {
+  public let categories: [SequreSDKLite.TFCategory]
+  public let boundingBox: CoreFoundation.CGRect
+  public static func == (lhs: SequreSDKLite.TFDetection, rhs: SequreSDKLite.TFDetection) -> Swift.Bool
+}
+public struct TFCategory : Swift.Sendable, Swift.Equatable {
+  public let label: Swift.String?
+  public let score: Swift.Float
+  public static func == (a: SequreSDKLite.TFCategory, b: SequreSDKLite.TFCategory) -> Swift.Bool
+}
+@_Concurrency.MainActor final public class CameraPermissionMonitor : Combine.ObservableObject {
+  @Combine.Published @_projectedValueProperty($status) @_Concurrency.MainActor final public var status: AVFoundation.AVAuthorizationStatus {
+    get
+  }
+  @_Concurrency.MainActor final public var $status: Combine.Published<AVFoundation.AVAuthorizationStatus>.Publisher {
+    get
+  }
+  @_Concurrency.MainActor final public var onStatusChange: (@_Concurrency.MainActor @Sendable (AVFoundation.AVAuthorizationStatus) -> Swift.Void)?
+  @_Concurrency.MainActor public init()
+  @objc deinit
+  @_Concurrency.MainActor final public func requestPermission(completion: @escaping @_Concurrency.MainActor @Sendable (AVFoundation.AVAuthorizationStatus) -> Swift.Void)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+@_Concurrency.MainActor final public class NetworkStatusMonitor : Combine.ObservableObject {
+  @Combine.Published @_projectedValueProperty($isConnected) @_Concurrency.MainActor final public var isConnected: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor final public var $isConnected: Combine.Published<Swift.Bool>.Publisher {
+    get
+  }
+  @_Concurrency.MainActor final public var onStatusChange: (@_Concurrency.MainActor @Sendable (Swift.Bool) -> Swift.Void)?
+  @_Concurrency.MainActor public init()
+  @objc deinit
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+public struct ScanModel : Swift.Codable, Swift.Sendable {
   public let classification: SequreSDKLite.Classification?
   public let object: SequreSDKLite.Canvas?
   public let pid: Swift.String?
@@ -82,12 +140,12 @@ public struct ScanModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct Canvas : Swift.Codable {
+public struct Canvas : Swift.Codable, Swift.Sendable {
   public let status: Swift.String?
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct Classification : Swift.Codable {
+public struct Classification : Swift.Codable, Swift.Sendable {
   public let label: Swift.String?
   public let score: Swift.Double?
   #if compiler(>=5.3) && $NonescapableTypes
@@ -96,7 +154,7 @@ public struct Classification : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
   public func encode(to encoder: any Swift.Encoder) throws
 }
-public struct Qrcode : Swift.Codable {
+public struct Qrcode : Swift.Codable, Swift.Sendable {
   public let text: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
   public init(text: Swift.String? = nil)
@@ -104,12 +162,20 @@ public struct Qrcode : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-@objc @_inheritsConvenienceInitializers public class QRDetectionHelper : ObjectiveC.NSObject {
-  @objc override dynamic public init()
+public struct PixelBufferWrapper : @unchecked Swift.Sendable {
+  public let buffer: CoreVideo.CVPixelBuffer
+  public init(_ buffer: CoreVideo.CVPixelBuffer)
+}
+@_hasMissingDesignatedInitializers public actor QRDetectionHelper {
+  public static let shared: SequreSDKLite.QRDetectionHelper
   #if compiler(>=5.3) && $NonescapableTypes
-  public func detectObject(frame pixelBuffer: CoreVideo.CVPixelBuffer) -> SequreSDKLite.Result?
+  public func detectObject(frame wrapper: SequreSDKLite.PixelBufferWrapper) -> SequreSDKLite.Result?
   #endif
   @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
 }
 public enum StatusDialogScan {
   case loadingAnalyzer
@@ -127,30 +193,73 @@ public enum StatusDialogScan {
     get
   }
 }
+extension AVFoundation.AVCaptureSession : @unchecked @retroactive Swift.Sendable {
+}
+extension AVFoundation.AVCaptureDeviceInput : @unchecked @retroactive Swift.Sendable {
+}
+extension AVFoundation.AVCapturePhotoOutput : @unchecked @retroactive Swift.Sendable {
+}
+extension AVFoundation.AVCaptureVideoDataOutput : @unchecked @retroactive Swift.Sendable {
+}
+extension AVFoundation.AVCaptureDevice : @unchecked @retroactive Swift.Sendable {
+}
+extension AVFoundation.AVCaptureConnection : @unchecked @retroactive Swift.Sendable {
+}
+@_hasMissingDesignatedInitializers public actor NetworkServiceSDK {
+  public static let shared: SequreSDKLite.NetworkServiceSDK
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func uploadFile<T>(url: Swift.String, fileData: Foundation.Data?, fileName: Swift.String, mimeType: Swift.String, parameters: [Swift.String : Swift.String]? = nil, responseType: T.Type) async throws -> T where T : Swift.Decodable, T : Swift.Sendable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func postRequest<T>(url: Swift.String, parameters: (any Swift.Encodable)? = nil, responseType: T.Type) async throws -> T where T : Swift.Decodable, T : Swift.Sendable
+  #endif
+  @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
 @_Concurrency.MainActor @preconcurrency public struct QRScannerPage : SwiftUICore.View {
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public init(gmapsKey: Swift.String? = nil, storeLocation: ((SequreSDKLite.DefaultLocation?) -> Swift.Void)? = nil, saveToGallery: Swift.Bool = false, id: SwiftUICore.Binding<Swift.String>, localeIdentifier: Swift.String = "en", pauseSession: SwiftUICore.Binding<Swift.Bool>, isDebugLayout: Swift.Bool = false, isDarkMode: Swift.Bool = false, flavor: SequreSDKLite.ClassificationEnv = ClassificationEnv.stag, onQRResult: @escaping (SequreSDKLite.StatusDialogScan?, SequreSDKLite.ScanModel?, SequreSDKLite.ErrorObject?) -> Swift.Void, returnScanModel: ((Swift.String, UIKit.UIImage, Swift.String?) -> Swift.Void)? = nil, onBack: (() -> Swift.Void)? = nil, deviceIsNotSupported: ((Swift.Bool) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(gmapsKey: Swift.String? = nil, storeLocation: ((SequreSDKLite.DefaultLocation?) -> Swift.Void)? = nil, saveToGallery: Swift.Bool = false, id: SwiftUICore.Binding<Swift.String>, localeIdentifier: Swift.String = "en", pauseSession: SwiftUICore.Binding<Swift.Bool>, isDebugLayout: Swift.Bool = false, isDarkMode: Swift.Bool = false, flavor: SequreSDKLite.ClassificationEnv = ClassificationEnv.stag, onQRResult: @escaping (SequreSDKLite.StatusDialogScan?, SequreSDKLite.ScanModel?, SequreSDKLite.ErrorObject?) -> Swift.Void, returnScanModel: ((Swift.String, UIKit.UIImage, Swift.String?) -> Swift.Void)? = nil, onBack: (() -> Swift.Void)? = nil, deviceIsNotSupported: ((Swift.Bool) -> Swift.Void)? = nil, onCameraStatusChange: (@_Concurrency.MainActor @Sendable (AVFoundation.AVAuthorizationStatus) -> Swift.Void)? = nil, onNetworkStatusChange: (@_Concurrency.MainActor @Sendable (Swift.Bool) -> Swift.Void)? = nil)
   #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s13SequreSDKLite13QRScannerPageV4bodyQrvp", 0) __
 }
-@_hasMissingDesignatedInitializers public class SequreSDKInstance : Combine.ObservableObject {
-  public static let shared: SequreSDKLite.SequreSDKInstance
+@_hasMissingDesignatedInitializers @_Concurrency.MainActor final public class SequreSDKInstance : Combine.ObservableObject {
+  @_Concurrency.MainActor public static let shared: SequreSDKLite.SequreSDKInstance
+  @Combine.Published @_projectedValueProperty($isInitialized) @_Concurrency.MainActor final public var isInitialized: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor final public var $isInitialized: Combine.Published<Swift.Bool>.Publisher {
+    get
+  }
   #if compiler(>=5.3) && $NonescapableTypes
-  public func initialize(uniqueNumber: Swift.Int, bundleID: Swift.String, flavor: SequreSDKLite.ClassificationEnv, onCompleted: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor final public func initialize(uniqueNumber: Swift.Int, bundleID: Swift.String, flavor: SequreSDKLite.ClassificationEnv, onCompleted: (() -> Swift.Void)? = nil)
   #endif
+  @_Concurrency.MainActor final public func reset()
+  @_Concurrency.MainActor final public var isReady: Swift.Bool {
+    get
+  }
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
 public func getModelIdentifier() -> Swift.String
 public func getDeviceModelName() -> Swift.String
 public func isSpecialCase() -> Swift.Bool
+public func getFocalLength() -> CoreFoundation.CGFloat
+public func getSensorSize() -> (width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat)
+public func getHyperParameter(isSquare: Swift.Bool, zoom: CoreFoundation.CGFloat) -> Swift.Float
 extension SequreSDKLite.ClassificationEnv : Swift.Equatable {}
 extension SequreSDKLite.ClassificationEnv : Swift.Hashable {}
+extension SequreSDKLite.ClassificationEnv : Swift.Sendable {}
 extension SequreSDKLite.DistanceResult : Swift.Equatable {}
 extension SequreSDKLite.DistanceResult : Swift.Hashable {}
+extension SequreSDKLite.CameraPermissionMonitor : Swift.Sendable {}
+extension SequreSDKLite.NetworkStatusMonitor : Swift.Sendable {}
 extension SequreSDKLite.StatusDialogScan : Swift.Equatable {}
 extension SequreSDKLite.StatusDialogScan : Swift.Hashable {}
 extension SequreSDKLite.QRScannerPage : Swift.Sendable {}
+extension SequreSDKLite.SequreSDKInstance : Swift.Sendable {}

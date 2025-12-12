@@ -249,7 +249,31 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -276,13 +300,6 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SequreSDKLite"
-      },
-      {
-        "kind": "Import",
-        "name": "TensorFlowLiteTaskVision",
-        "printedName": "TensorFlowLiteTaskVision",
         "declKind": "Import",
         "moduleName": "SequreSDKLite"
       },
@@ -305,17 +322,56 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "SequreSDKLite"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "SequreSDKLite"
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SequreRepositorySDK",
+        "printedName": "SequreRepositorySDK",
+        "declKind": "Struct",
+        "usr": "s:13SequreSDKLite0A13RepositorySDKV",
+        "mangledName": "$s13SequreSDKLite0A13RepositorySDKV",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -325,6 +381,472 @@
         "moduleName": "SequreSDKLite",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKNetworkError",
+        "printedName": "SDKNetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SequreSDKLite.SDKNetworkError.Type) -> SequreSDKLite.SDKNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKNetworkError",
+                    "printedName": "SequreSDKLite.SDKNetworkError",
+                    "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SequreSDKLite.SDKNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKNetworkError",
+                        "printedName": "SequreSDKLite.SDKNetworkError",
+                        "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13SequreSDKLite15SDKNetworkErrorO10invalidURLyA2CmF",
+            "mangledName": "$s13SequreSDKLite15SDKNetworkErrorO10invalidURLyA2CmF",
+            "moduleName": "SequreSDKLite"
+          },
+          {
+            "kind": "Var",
+            "name": "noData",
+            "printedName": "noData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SequreSDKLite.SDKNetworkError.Type) -> SequreSDKLite.SDKNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKNetworkError",
+                    "printedName": "SequreSDKLite.SDKNetworkError",
+                    "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SequreSDKLite.SDKNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKNetworkError",
+                        "printedName": "SequreSDKLite.SDKNetworkError",
+                        "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13SequreSDKLite15SDKNetworkErrorO6noDatayA2CmF",
+            "mangledName": "$s13SequreSDKLite15SDKNetworkErrorO6noDatayA2CmF",
+            "moduleName": "SequreSDKLite"
+          },
+          {
+            "kind": "Var",
+            "name": "decodingFailed",
+            "printedName": "decodingFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SequreSDKLite.SDKNetworkError.Type) -> (any Swift.Error) -> SequreSDKLite.SDKNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> SequreSDKLite.SDKNetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKNetworkError",
+                        "printedName": "SequreSDKLite.SDKNetworkError",
+                        "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SequreSDKLite.SDKNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKNetworkError",
+                        "printedName": "SequreSDKLite.SDKNetworkError",
+                        "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13SequreSDKLite15SDKNetworkErrorO14decodingFailedyACs0D0_pcACmF",
+            "mangledName": "$s13SequreSDKLite15SDKNetworkErrorO14decodingFailedyACs0D0_pcACmF",
+            "moduleName": "SequreSDKLite"
+          },
+          {
+            "kind": "Var",
+            "name": "httpError",
+            "printedName": "httpError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SequreSDKLite.SDKNetworkError.Type) -> (Swift.Int) -> SequreSDKLite.SDKNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> SequreSDKLite.SDKNetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKNetworkError",
+                        "printedName": "SequreSDKLite.SDKNetworkError",
+                        "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(statusCode: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SequreSDKLite.SDKNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKNetworkError",
+                        "printedName": "SequreSDKLite.SDKNetworkError",
+                        "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13SequreSDKLite15SDKNetworkErrorO04httpD0yACSi_tcACmF",
+            "mangledName": "$s13SequreSDKLite15SDKNetworkErrorO04httpD0yACSi_tcACmF",
+            "moduleName": "SequreSDKLite"
+          },
+          {
+            "kind": "Var",
+            "name": "noInternetConnection",
+            "printedName": "noInternetConnection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SequreSDKLite.SDKNetworkError.Type) -> SequreSDKLite.SDKNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKNetworkError",
+                    "printedName": "SequreSDKLite.SDKNetworkError",
+                    "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SequreSDKLite.SDKNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKNetworkError",
+                        "printedName": "SequreSDKLite.SDKNetworkError",
+                        "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13SequreSDKLite15SDKNetworkErrorO20noInternetConnectionyA2CmF",
+            "mangledName": "$s13SequreSDKLite15SDKNetworkErrorO20noInternetConnectionyA2CmF",
+            "moduleName": "SequreSDKLite"
+          },
+          {
+            "kind": "Var",
+            "name": "timeout",
+            "printedName": "timeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SequreSDKLite.SDKNetworkError.Type) -> SequreSDKLite.SDKNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKNetworkError",
+                    "printedName": "SequreSDKLite.SDKNetworkError",
+                    "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SequreSDKLite.SDKNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKNetworkError",
+                        "printedName": "SequreSDKLite.SDKNetworkError",
+                        "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13SequreSDKLite15SDKNetworkErrorO7timeoutyA2CmF",
+            "mangledName": "$s13SequreSDKLite15SDKNetworkErrorO7timeoutyA2CmF",
+            "moduleName": "SequreSDKLite"
+          },
+          {
+            "kind": "Var",
+            "name": "hostUnreachable",
+            "printedName": "hostUnreachable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SequreSDKLite.SDKNetworkError.Type) -> SequreSDKLite.SDKNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKNetworkError",
+                    "printedName": "SequreSDKLite.SDKNetworkError",
+                    "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SequreSDKLite.SDKNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKNetworkError",
+                        "printedName": "SequreSDKLite.SDKNetworkError",
+                        "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13SequreSDKLite15SDKNetworkErrorO15hostUnreachableyA2CmF",
+            "mangledName": "$s13SequreSDKLite15SDKNetworkErrorO15hostUnreachableyA2CmF",
+            "moduleName": "SequreSDKLite"
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SequreSDKLite.SDKNetworkError.Type) -> (any Swift.Error) -> SequreSDKLite.SDKNetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> SequreSDKLite.SDKNetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKNetworkError",
+                        "printedName": "SequreSDKLite.SDKNetworkError",
+                        "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SequreSDKLite.SDKNetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKNetworkError",
+                        "printedName": "SequreSDKLite.SDKNetworkError",
+                        "usr": "s:13SequreSDKLite15SDKNetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13SequreSDKLite15SDKNetworkErrorO7unknownyACs0D0_pcACmF",
+            "mangledName": "$s13SequreSDKLite15SDKNetworkErrorO7unknownyACs0D0_pcACmF",
+            "moduleName": "SequreSDKLite"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite15SDKNetworkErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s13SequreSDKLite15SDKNetworkErrorO16errorDescriptionSSSgvp",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite15SDKNetworkErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s13SequreSDKLite15SDKNetworkErrorO16errorDescriptionSSSgvg",
+                "moduleName": "SequreSDKLite",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13SequreSDKLite15SDKNetworkErrorO",
+        "mangledName": "$s13SequreSDKLite15SDKNetworkErrorO",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
         ]
       },
       {
@@ -353,59 +875,6 @@
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "SequreSDKLite"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "FontRegistrar",
-        "printedName": "FontRegistrar",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "register",
-            "printedName": "register()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13SequreSDKLite13FontRegistrarC8registeryyFZ",
-            "mangledName": "$s13SequreSDKLite13FontRegistrarC8registeryyFZ",
-            "moduleName": "SequreSDKLite",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:13SequreSDKLite13FontRegistrarC",
-        "mangledName": "$s13SequreSDKLite13FontRegistrarC",
-        "moduleName": "SequreSDKLite",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -570,10 +1039,10 @@
             "mangledName": "$s13SequreSDKLite23DefaultLocationResponseV8locationAA0cD0VSgvp",
             "moduleName": "SequreSDKLite",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -602,6 +1071,56 @@
                 "moduleName": "SequreSDKLite",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SequreSDKLite.DefaultLocation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DefaultLocation",
+                        "printedName": "SequreSDKLite.DefaultLocation",
+                        "usr": "s:13SequreSDKLite15DefaultLocationV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite23DefaultLocationResponseV8locationAA0cD0VSgvs",
+                "mangledName": "$s13SequreSDKLite23DefaultLocationResponseV8locationAA0cD0VSgvs",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite23DefaultLocationResponseV8locationAA0cD0VSgvM",
+                "mangledName": "$s13SequreSDKLite23DefaultLocationResponseV8locationAA0cD0VSgvM",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -692,6 +1211,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -725,10 +1258,10 @@
             "mangledName": "$s13SequreSDKLite15DefaultLocationV3latSdSgvp",
             "moduleName": "SequreSDKLite",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -757,6 +1290,56 @@
                 "moduleName": "SequreSDKLite",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite15DefaultLocationV3latSdSgvs",
+                "mangledName": "$s13SequreSDKLite15DefaultLocationV3latSdSgvs",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite15DefaultLocationV3latSdSgvM",
+                "mangledName": "$s13SequreSDKLite15DefaultLocationV3latSdSgvM",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -785,10 +1368,10 @@
             "mangledName": "$s13SequreSDKLite15DefaultLocationV3lngSdSgvp",
             "moduleName": "SequreSDKLite",
             "declAttributes": [
+              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -817,6 +1400,56 @@
                 "moduleName": "SequreSDKLite",
                 "implicit": true,
                 "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite15DefaultLocationV3lngSdSgvs",
+                "mangledName": "$s13SequreSDKLite15DefaultLocationV3lngSdSgvs",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite15DefaultLocationV3lngSdSgvM",
+                "mangledName": "$s13SequreSDKLite15DefaultLocationV3lngSdSgvM",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -907,6 +1540,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -914,16 +1561,6 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SequreSDKLite",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "SequreSDKLite",
         "declAttributes": [
@@ -1059,6 +1696,9 @@
             "moduleName": "SequreSDKLite",
             "static": true,
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1078,6 +1718,9 @@
             "mangledName": "$s13SequreSDKLite17ClassificationEnvO9hashValueSivp",
             "moduleName": "SequreSDKLite",
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1123,6 +1766,9 @@
             "mangledName": "$s13SequreSDKLite17ClassificationEnvO4hash4intoys6HasherVz_tF",
             "moduleName": "SequreSDKLite",
             "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -1131,7 +1777,8 @@
         "mangledName": "$s13SequreSDKLite17ClassificationEnvO",
         "moduleName": "SequreSDKLite",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "Custom"
         ],
         "conformances": [
           {
@@ -1161,6 +1808,13 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1178,13 +1832,6 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "SequreSDKLite"
-      },
-      {
-        "kind": "Import",
-        "name": "TensorFlowLiteTaskVision",
-        "printedName": "TensorFlowLiteTaskVision",
         "declKind": "Import",
         "moduleName": "SequreSDKLite"
       },
@@ -1521,6 +2168,20 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1543,8 +2204,8 @@
       },
       {
         "kind": "Import",
-        "name": "TensorFlowLiteTaskVision",
-        "printedName": "TensorFlowLiteTaskVision",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "SequreSDKLite",
         "declAttributes": [
@@ -1555,68 +2216,6 @@
         "kind": "TypeDecl",
         "name": "Result",
         "printedName": "Result",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "detections",
-            "printedName": "detections",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[TensorFlowLiteTaskVision.Detection]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Detection",
-                    "printedName": "TensorFlowLiteTaskVision.Detection",
-                    "usr": "c:objc(cs)TFLDetection"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13SequreSDKLite6ResultV10detectionsSaySo12TFLDetectionCGvp",
-            "mangledName": "$s13SequreSDKLite6ResultV10detectionsSaySo12TFLDetectionCGvp",
-            "moduleName": "SequreSDKLite",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[TensorFlowLiteTaskVision.Detection]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Detection",
-                        "printedName": "TensorFlowLiteTaskVision.Detection",
-                        "usr": "c:objc(cs)TFLDetection"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13SequreSDKLite6ResultV10detectionsSaySo12TFLDetectionCGvg",
-                "mangledName": "$s13SequreSDKLite6ResultV10detectionsSaySo12TFLDetectionCGvg",
-                "moduleName": "SequreSDKLite",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
         "declKind": "Struct",
         "usr": "s:13SequreSDKLite6ResultV",
         "mangledName": "$s13SequreSDKLite6ResultV",
@@ -1639,6 +2238,20 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1654,8 +2267,214 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreFoundation",
+        "printedName": "CoreFoundation",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreText",
+        "printedName": "CoreText",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FontRegistrar",
+        "printedName": "FontRegistrar",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FontRegistrar",
+                "printedName": "SequreSDKLite.FontRegistrar",
+                "usr": "s:13SequreSDKLite13FontRegistrarC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite13FontRegistrarC6sharedACvpZ",
+            "mangledName": "$s13SequreSDKLite13FontRegistrarC6sharedACvpZ",
+            "moduleName": "SequreSDKLite",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FontRegistrar",
+                    "printedName": "SequreSDKLite.FontRegistrar",
+                    "usr": "s:13SequreSDKLite13FontRegistrarC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite13FontRegistrarC6sharedACvgZ",
+                "mangledName": "$s13SequreSDKLite13FontRegistrarC6sharedACvgZ",
+                "moduleName": "SequreSDKLite",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "ensureRegistered",
+            "printedName": "ensureRegistered()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SequreSDKLite13FontRegistrarC16ensureRegisteredyyF",
+            "mangledName": "$s13SequreSDKLite13FontRegistrarC16ensureRegisteredyyF",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SequreSDKLite13FontRegistrarC8registeryyFZ",
+            "mangledName": "$s13SequreSDKLite13FontRegistrarC8registeryyFZ",
+            "moduleName": "SequreSDKLite",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13SequreSDKLite13FontRegistrarC",
+        "mangledName": "$s13SequreSDKLite13FontRegistrarC",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "SequreSDKLite",
         "declAttributes": [
@@ -1698,8 +2517,28 @@
       },
       {
         "kind": "Import",
-        "name": "TensorFlowLiteTaskVision",
-        "printedName": "TensorFlowLiteTaskVision",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "SequreSDKLite"
       },
@@ -1715,6 +2554,396 @@
       },
       {
         "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "Import",
+        "name": "TensorFlowLiteTaskVision",
+        "printedName": "TensorFlowLiteTaskVision",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TFDetection",
+        "printedName": "TFDetection",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "categories",
+            "printedName": "categories",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SequreSDKLite.TFCategory]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TFCategory",
+                    "printedName": "SequreSDKLite.TFCategory",
+                    "usr": "s:13SequreSDKLite10TFCategoryV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite11TFDetectionV10categoriesSayAA10TFCategoryVGvp",
+            "mangledName": "$s13SequreSDKLite11TFDetectionV10categoriesSayAA10TFCategoryVGvp",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SequreSDKLite.TFCategory]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TFCategory",
+                        "printedName": "SequreSDKLite.TFCategory",
+                        "usr": "s:13SequreSDKLite10TFCategoryV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite11TFDetectionV10categoriesSayAA10TFCategoryVGvg",
+                "mangledName": "$s13SequreSDKLite11TFDetectionV10categoriesSayAA10TFCategoryVGvg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "boundingBox",
+            "printedName": "boundingBox",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite11TFDetectionV11boundingBoxSo6CGRectVvp",
+            "mangledName": "$s13SequreSDKLite11TFDetectionV11boundingBoxSo6CGRectVvp",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite11TFDetectionV11boundingBoxSo6CGRectVvg",
+                "mangledName": "$s13SequreSDKLite11TFDetectionV11boundingBoxSo6CGRectVvg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TFDetection",
+                "printedName": "SequreSDKLite.TFDetection",
+                "usr": "s:13SequreSDKLite11TFDetectionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TFDetection",
+                "printedName": "SequreSDKLite.TFDetection",
+                "usr": "s:13SequreSDKLite11TFDetectionV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SequreSDKLite11TFDetectionV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13SequreSDKLite11TFDetectionV2eeoiySbAC_ACtFZ",
+            "moduleName": "SequreSDKLite",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SequreSDKLite11TFDetectionV",
+        "mangledName": "$s13SequreSDKLite11TFDetectionV",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TFCategory",
+        "printedName": "TFCategory",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "label",
+            "printedName": "label",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite10TFCategoryV5labelSSSgvp",
+            "mangledName": "$s13SequreSDKLite10TFCategoryV5labelSSSgvp",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite10TFCategoryV5labelSSSgvg",
+                "mangledName": "$s13SequreSDKLite10TFCategoryV5labelSSSgvg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "score",
+            "printedName": "score",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite10TFCategoryV5scoreSfvp",
+            "mangledName": "$s13SequreSDKLite10TFCategoryV5scoreSfvp",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite10TFCategoryV5scoreSfvg",
+                "mangledName": "$s13SequreSDKLite10TFCategoryV5scoreSfvg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TFCategory",
+                "printedName": "SequreSDKLite.TFCategory",
+                "usr": "s:13SequreSDKLite10TFCategoryV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TFCategory",
+                "printedName": "SequreSDKLite.TFCategory",
+                "usr": "s:13SequreSDKLite10TFCategoryV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SequreSDKLite10TFCategoryV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13SequreSDKLite10TFCategoryV2eeoiySbAC_ACtFZ",
+            "moduleName": "SequreSDKLite",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SequreSDKLite10TFCategoryV",
+        "mangledName": "$s13SequreSDKLite10TFCategoryV",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -1735,6 +2964,415 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CameraPermissionMonitor",
+        "printedName": "CameraPermissionMonitor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVAuthorizationStatus",
+                "printedName": "AVFoundation.AVAuthorizationStatus",
+                "usr": "c:@E@AVAuthorizationStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite23CameraPermissionMonitorC6statusSo21AVAuthorizationStatusVvp",
+            "mangledName": "$s13SequreSDKLite23CameraPermissionMonitorC6statusSo21AVAuthorizationStatusVvp",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVAuthorizationStatus",
+                    "printedName": "AVFoundation.AVAuthorizationStatus",
+                    "usr": "c:@E@AVAuthorizationStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite23CameraPermissionMonitorC6statusSo21AVAuthorizationStatusVvg",
+                "mangledName": "$s13SequreSDKLite23CameraPermissionMonitorC6statusSo21AVAuthorizationStatusVvg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$status",
+            "printedName": "$status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<AVFoundation.AVAuthorizationStatus>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite23CameraPermissionMonitorC7$status7Combine9PublishedV9PublisherVySo21AVAuthorizationStatusV_Gvp",
+            "mangledName": "$s13SequreSDKLite23CameraPermissionMonitorC7$status7Combine9PublishedV9PublisherVySo21AVAuthorizationStatusV_Gvp",
+            "moduleName": "SequreSDKLite",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<AVFoundation.AVAuthorizationStatus>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite23CameraPermissionMonitorC7$status7Combine9PublishedV9PublisherVySo21AVAuthorizationStatusV_Gvg",
+                "mangledName": "$s13SequreSDKLite23CameraPermissionMonitorC7$status7Combine9PublishedV9PublisherVySo21AVAuthorizationStatusV_Gvg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onStatusChange",
+            "printedName": "onStatusChange",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((AVFoundation.AVAuthorizationStatus) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AVFoundation.AVAuthorizationStatus) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVAuthorizationStatus",
+                        "printedName": "AVFoundation.AVAuthorizationStatus",
+                        "usr": "c:@E@AVAuthorizationStatus"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite23CameraPermissionMonitorC14onStatusChangeySo015AVAuthorizationG0VYbScMYccSgvp",
+            "mangledName": "$s13SequreSDKLite23CameraPermissionMonitorC14onStatusChangeySo015AVAuthorizationG0VYbScMYccSgvp",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((AVFoundation.AVAuthorizationStatus) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(AVFoundation.AVAuthorizationStatus) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AVAuthorizationStatus",
+                            "printedName": "AVFoundation.AVAuthorizationStatus",
+                            "usr": "c:@E@AVAuthorizationStatus"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite23CameraPermissionMonitorC14onStatusChangeySo015AVAuthorizationG0VYbScMYccSgvg",
+                "mangledName": "$s13SequreSDKLite23CameraPermissionMonitorC14onStatusChangeySo015AVAuthorizationG0VYbScMYccSgvg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((AVFoundation.AVAuthorizationStatus) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(AVFoundation.AVAuthorizationStatus) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AVAuthorizationStatus",
+                            "printedName": "AVFoundation.AVAuthorizationStatus",
+                            "usr": "c:@E@AVAuthorizationStatus"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite23CameraPermissionMonitorC14onStatusChangeySo015AVAuthorizationG0VYbScMYccSgvs",
+                "mangledName": "$s13SequreSDKLite23CameraPermissionMonitorC14onStatusChangeySo015AVAuthorizationG0VYbScMYccSgvs",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite23CameraPermissionMonitorC14onStatusChangeySo015AVAuthorizationG0VYbScMYccSgvM",
+                "mangledName": "$s13SequreSDKLite23CameraPermissionMonitorC14onStatusChangeySo015AVAuthorizationG0VYbScMYccSgvM",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CameraPermissionMonitor",
+                "printedName": "SequreSDKLite.CameraPermissionMonitor",
+                "usr": "s:13SequreSDKLite23CameraPermissionMonitorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SequreSDKLite23CameraPermissionMonitorCACycfc",
+            "mangledName": "$s13SequreSDKLite23CameraPermissionMonitorCACycfc",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermission",
+            "printedName": "requestPermission(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AVFoundation.AVAuthorizationStatus) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVAuthorizationStatus",
+                    "printedName": "AVFoundation.AVAuthorizationStatus",
+                    "usr": "c:@E@AVAuthorizationStatus"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SequreSDKLite23CameraPermissionMonitorC07requestD010completionyySo21AVAuthorizationStatusVYbScMYcc_tF",
+            "mangledName": "$s13SequreSDKLite23CameraPermissionMonitorC07requestD010completionyySo21AVAuthorizationStatusVYbScMYcc_tF",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13SequreSDKLite23CameraPermissionMonitorC",
+        "mangledName": "$s13SequreSDKLite23CameraPermissionMonitorC",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -1755,8 +3393,380 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkStatusMonitor",
+        "printedName": "NetworkStatusMonitor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isConnected",
+            "printedName": "isConnected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite20NetworkStatusMonitorC11isConnectedSbvp",
+            "mangledName": "$s13SequreSDKLite20NetworkStatusMonitorC11isConnectedSbvp",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite20NetworkStatusMonitorC11isConnectedSbvg",
+                "mangledName": "$s13SequreSDKLite20NetworkStatusMonitorC11isConnectedSbvg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isConnected",
+            "printedName": "$isConnected",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite20NetworkStatusMonitorC12$isConnected7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s13SequreSDKLite20NetworkStatusMonitorC12$isConnected7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "SequreSDKLite",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite20NetworkStatusMonitorC12$isConnected7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s13SequreSDKLite20NetworkStatusMonitorC12$isConnected7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onStatusChange",
+            "printedName": "onStatusChange",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite20NetworkStatusMonitorC02onD6ChangeySbYbScMYccSgvp",
+            "mangledName": "$s13SequreSDKLite20NetworkStatusMonitorC02onD6ChangeySbYbScMYccSgvp",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite20NetworkStatusMonitorC02onD6ChangeySbYbScMYccSgvg",
+                "mangledName": "$s13SequreSDKLite20NetworkStatusMonitorC02onD6ChangeySbYbScMYccSgvg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite20NetworkStatusMonitorC02onD6ChangeySbYbScMYccSgvs",
+                "mangledName": "$s13SequreSDKLite20NetworkStatusMonitorC02onD6ChangeySbYbScMYccSgvs",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite20NetworkStatusMonitorC02onD6ChangeySbYbScMYccSgvM",
+                "mangledName": "$s13SequreSDKLite20NetworkStatusMonitorC02onD6ChangeySbYbScMYccSgvM",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkStatusMonitor",
+                "printedName": "SequreSDKLite.NetworkStatusMonitor",
+                "usr": "s:13SequreSDKLite20NetworkStatusMonitorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SequreSDKLite20NetworkStatusMonitorCACycfc",
+            "mangledName": "$s13SequreSDKLite20NetworkStatusMonitorCACycfc",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13SequreSDKLite20NetworkStatusMonitorC",
+        "mangledName": "$s13SequreSDKLite20NetworkStatusMonitorC",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "SequreSDKLite",
         "declAttributes": [
@@ -2311,6 +4321,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2466,6 +4490,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2734,6 +4772,20 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -2925,13 +4977,27 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "SequreSDKLite",
         "declAttributes": [
@@ -2940,8 +5006,154 @@
       },
       {
         "kind": "Import",
-        "name": "TensorFlowLiteTaskVision",
-        "printedName": "TensorFlowLiteTaskVision",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PixelBufferWrapper",
+        "printedName": "PixelBufferWrapper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "buffer",
+            "printedName": "buffer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite18PixelBufferWrapperV6bufferSo11CVBufferRefavp",
+            "mangledName": "$s13SequreSDKLite18PixelBufferWrapperV6bufferSo11CVBufferRefavp",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite18PixelBufferWrapperV6bufferSo11CVBufferRefavg",
+                "mangledName": "$s13SequreSDKLite18PixelBufferWrapperV6bufferSo11CVBufferRefavg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PixelBufferWrapper",
+                "printedName": "SequreSDKLite.PixelBufferWrapper",
+                "usr": "s:13SequreSDKLite18PixelBufferWrapperV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SequreSDKLite18PixelBufferWrapperVyACSo11CVBufferRefacfc",
+            "mangledName": "$s13SequreSDKLite18PixelBufferWrapperVyACSo11CVBufferRefacfc",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SequreSDKLite18PixelBufferWrapperV",
+        "mangledName": "$s13SequreSDKLite18PixelBufferWrapperV",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "SequreSDKLite"
       },
@@ -2975,31 +5187,55 @@
         "printedName": "QRDetectionHelper",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "QRDetectionHelper",
                 "printedName": "SequreSDKLite.QRDetectionHelper",
-                "usr": "c:@M@SequreSDKLite@objc(cs)QRDetectionHelper"
+                "usr": "s:13SequreSDKLite17QRDetectionHelperC"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "c:@M@SequreSDKLite@objc(cs)QRDetectionHelper(im)init",
-            "mangledName": "$s13SequreSDKLite17QRDetectionHelperCACycfc",
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite17QRDetectionHelperC6sharedACvpZ",
+            "mangledName": "$s13SequreSDKLite17QRDetectionHelperC6sharedACvpZ",
             "moduleName": "SequreSDKLite",
-            "overriding": true,
-            "objc_name": "init",
+            "static": true,
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "AccessControl",
-              "Override",
-              "RawDocComment"
+              "Final",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
             ],
-            "init_kind": "Designated"
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "QRDetectionHelper",
+                    "printedName": "SequreSDKLite.QRDetectionHelper",
+                    "usr": "s:13SequreSDKLite17QRDetectionHelperC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite17QRDetectionHelperC6sharedACvgZ",
+                "mangledName": "$s13SequreSDKLite17QRDetectionHelperC6sharedACvgZ",
+                "moduleName": "SequreSDKLite",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -3022,36 +5258,86 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "CVBuffer",
-                "printedName": "CoreVideo.CVBuffer",
-                "usr": "c:@T@CVBufferRef"
+                "name": "PixelBufferWrapper",
+                "printedName": "SequreSDKLite.PixelBufferWrapper",
+                "usr": "s:13SequreSDKLite18PixelBufferWrapperV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13SequreSDKLite17QRDetectionHelperC12detectObject5frameAA6ResultVSgSo11CVBufferRefa_tF",
-            "mangledName": "$s13SequreSDKLite17QRDetectionHelperC12detectObject5frameAA6ResultVSgSo11CVBufferRefa_tF",
+            "usr": "s:13SequreSDKLite17QRDetectionHelperC12detectObject5frameAA6ResultVSgAA18PixelBufferWrapperV_tF",
+            "mangledName": "$s13SequreSDKLite17QRDetectionHelperC12detectObject5frameAA6ResultVSgAA18PixelBufferWrapperV_tF",
             "moduleName": "SequreSDKLite",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "unownedExecutor",
+            "printedName": "unownedExecutor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnownedSerialExecutor",
+                "printedName": "_Concurrency.UnownedSerialExecutor",
+                "usr": "s:Sce"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite17QRDetectionHelperC15unownedExecutorScevp",
+            "mangledName": "$s13SequreSDKLite17QRDetectionHelperC15unownedExecutorScevp",
+            "moduleName": "SequreSDKLite",
+            "implicit": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Final",
+              "Nonisolated",
+              "Semantics"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnownedSerialExecutor",
+                    "printedName": "_Concurrency.UnownedSerialExecutor",
+                    "usr": "s:Sce"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite17QRDetectionHelperC15unownedExecutorScevg",
+                "mangledName": "$s13SequreSDKLite17QRDetectionHelperC15unownedExecutorScevg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@SequreSDKLite@objc(cs)QRDetectionHelper",
+        "usr": "s:13SequreSDKLite17QRDetectionHelperC",
         "mangledName": "$s13SequreSDKLite17QRDetectionHelperC",
         "moduleName": "SequreSDKLite",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
+          "RawDocComment"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -3069,63 +5355,25 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
           },
           {
             "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SequreSDKLite",
-        "declAttributes": [
-          "RawDocComment"
         ]
       },
       {
@@ -3568,7 +5816,8 @@
         "mangledName": "$s13SequreSDKLite16StatusDialogScanO",
         "moduleName": "SequreSDKLite",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -3637,6 +5886,16 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3650,7 +5909,340 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
         "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkServiceSDK",
+        "printedName": "NetworkServiceSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkServiceSDK",
+                "printedName": "SequreSDKLite.NetworkServiceSDK",
+                "usr": "s:13SequreSDKLite17NetworkServiceSDKC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite17NetworkServiceSDKC6sharedACvpZ",
+            "mangledName": "$s13SequreSDKLite17NetworkServiceSDKC6sharedACvpZ",
+            "moduleName": "SequreSDKLite",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkServiceSDK",
+                    "printedName": "SequreSDKLite.NetworkServiceSDK",
+                    "usr": "s:13SequreSDKLite17NetworkServiceSDKC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite17NetworkServiceSDKC6sharedACvgZ",
+                "mangledName": "$s13SequreSDKLite17NetworkServiceSDKC6sharedACvgZ",
+                "moduleName": "SequreSDKLite",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "uploadFile",
+            "printedName": "uploadFile(url:fileData:fileName:mimeType:parameters:responseType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SequreSDKLite17NetworkServiceSDKC10uploadFile3url8fileData0I4Name8mimeType10parameters08responseM0xSS_10Foundation0J0VSgS2SSDyS2SGSgxmtYaKSeRzs8SendableRzlF",
+            "mangledName": "$s13SequreSDKLite17NetworkServiceSDKC10uploadFile3url8fileData0I4Name8mimeType10parameters08responseM0xSS_10Foundation0J0VSgS2SSDyS2SGSgxmtYaKSeRzs8SendableRzlF",
+            "moduleName": "SequreSDKLite",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Sendable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Sendable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "postRequest",
+            "printedName": "postRequest(url:parameters:responseType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Encodable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encodable",
+                    "printedName": "any Swift.Encodable",
+                    "usr": "s:SE"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SequreSDKLite17NetworkServiceSDKC11postRequest3url10parameters12responseTypexSS_SE_pSgxmtYaKSeRzs8SendableRzlF",
+            "mangledName": "$s13SequreSDKLite17NetworkServiceSDKC11postRequest3url10parameters12responseTypexSS_SE_pSgxmtYaKSeRzs8SendableRzlF",
+            "moduleName": "SequreSDKLite",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Sendable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Sendable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "unownedExecutor",
+            "printedName": "unownedExecutor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnownedSerialExecutor",
+                "printedName": "_Concurrency.UnownedSerialExecutor",
+                "usr": "s:Sce"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite17NetworkServiceSDKC15unownedExecutorScevp",
+            "mangledName": "$s13SequreSDKLite17NetworkServiceSDKC15unownedExecutorScevp",
+            "moduleName": "SequreSDKLite",
+            "implicit": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Final",
+              "Nonisolated",
+              "Semantics"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnownedSerialExecutor",
+                    "printedName": "_Concurrency.UnownedSerialExecutor",
+                    "usr": "s:Sce"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite17NetworkServiceSDKC15unownedExecutorScevg",
+                "mangledName": "$s13SequreSDKLite17NetworkServiceSDKC15unownedExecutorScevg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13SequreSDKLite17NetworkServiceSDKC",
+        "mangledName": "$s13SequreSDKLite17NetworkServiceSDKC",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -3667,13 +6259,6 @@
         "moduleName": "SequreSDKLite"
       },
       {
-        "kind": "Import",
-        "name": "TensorFlowLiteTaskVision",
-        "printedName": "TensorFlowLiteTaskVision",
-        "declKind": "Import",
-        "moduleName": "SequreSDKLite"
-      },
-      {
         "kind": "TypeDecl",
         "name": "QRScannerPage",
         "printedName": "QRScannerPage",
@@ -3681,7 +6266,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(gmapsKey:storeLocation:saveToGallery:id:localeIdentifier:pauseSession:isDebugLayout:isDarkMode:flavor:onQRResult:returnScanModel:onBack:deviceIsNotSupported:)",
+            "printedName": "init(gmapsKey:storeLocation:saveToGallery:id:localeIdentifier:pauseSession:isDebugLayout:isDarkMode:flavor:onQRResult:returnScanModel:onBack:deviceIsNotSupported:onCameraStatusChange:onNetworkStatusChange:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3969,11 +6554,65 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((AVFoundation.AVAuthorizationStatus) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AVFoundation.AVAuthorizationStatus) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVAuthorizationStatus",
+                        "printedName": "AVFoundation.AVAuthorizationStatus",
+                        "usr": "c:@E@AVAuthorizationStatus"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13SequreSDKLite13QRScannerPageV8gmapsKey13storeLocation13saveToGallery2id16localeIdentifier12pauseSession13isDebugLayout0Q8DarkMode6flavor10onQRResult15returnScanModel0W4Back20deviceIsNotSupportedACSSSg_yAA07DefaultH0VSgcSgSb7SwiftUI7BindingVySSGSSAXySbGS2bAA17ClassificationEnvOyAA012StatusDialogZ0OSg_AA0Z5ModelVSgAA11ErrorObjectVSgtcySS_So7UIImageCAQtcSgyycSgySbcSgtcfc",
-            "mangledName": "$s13SequreSDKLite13QRScannerPageV8gmapsKey13storeLocation13saveToGallery2id16localeIdentifier12pauseSession13isDebugLayout0Q8DarkMode6flavor10onQRResult15returnScanModel0W4Back20deviceIsNotSupportedACSSSg_yAA07DefaultH0VSgcSgSb7SwiftUI7BindingVySSGSSAXySbGS2bAA17ClassificationEnvOyAA012StatusDialogZ0OSg_AA0Z5ModelVSgAA11ErrorObjectVSgtcySS_So7UIImageCAQtcSgyycSgySbcSgtcfc",
+            "usr": "s:13SequreSDKLite13QRScannerPageV8gmapsKey13storeLocation13saveToGallery2id16localeIdentifier12pauseSession13isDebugLayout0Q8DarkMode6flavor10onQRResult15returnScanModel0W4Back20deviceIsNotSupported0W18CameraStatusChange0W19NetworkStatusChangeACSSSg_yAA07DefaultH0VSgcSgSb7SwiftUI7BindingVySSGSSAZySbGS2bAA17ClassificationEnvOyAA012StatusDialogZ0OSg_AA0Z5ModelVSgAA11ErrorObjectVSgtcySS_So7UIImageCAStcSgyycSgySbcSgySo21AVAuthorizationStatusVcSgA16_tcfc",
+            "mangledName": "$s13SequreSDKLite13QRScannerPageV8gmapsKey13storeLocation13saveToGallery2id16localeIdentifier12pauseSession13isDebugLayout0Q8DarkMode6flavor10onQRResult15returnScanModel0W4Back20deviceIsNotSupported0W18CameraStatusChange0W19NetworkStatusChangeACSSSg_yAA07DefaultH0VSgcSgSb7SwiftUI7BindingVySSGSSAZySbGS2bAA17ClassificationEnvOyAA012StatusDialogZ0OSg_AA0Z5ModelVSgAA11ErrorObjectVSgtcySS_So7UIImageCAStcSgyycSgySbcSgySo21AVAuthorizationStatusVcSgA16_tcfc",
             "moduleName": "SequreSDKLite",
             "declAttributes": [
               "Preconcurrency",
@@ -4145,6 +6784,7 @@
             "declAttributes": [
               "HasInitialValue",
               "Final",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -4168,6 +6808,101 @@
                 "mangledName": "$s13SequreSDKLite0A11SDKInstanceC6sharedACvgZ",
                 "moduleName": "SequreSDKLite",
                 "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInitialized",
+            "printedName": "isInitialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite0A11SDKInstanceC13isInitializedSbvp",
+            "mangledName": "$s13SequreSDKLite0A11SDKInstanceC13isInitializedSbvp",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite0A11SDKInstanceC13isInitializedSbvg",
+                "mangledName": "$s13SequreSDKLite0A11SDKInstanceC13isInitializedSbvg",
+                "moduleName": "SequreSDKLite",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$isInitialized",
+            "printedName": "$isInitialized",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite0A11SDKInstanceC14$isInitialized7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s13SequreSDKLite0A11SDKInstanceC14$isInitialized7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "SequreSDKLite",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite0A11SDKInstanceC14$isInitialized7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s13SequreSDKLite0A11SDKInstanceC14$isInitialized7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "SequreSDKLite",
                 "implicit": true,
                 "declAttributes": [
                   "Final"
@@ -4236,9 +6971,81 @@
             "mangledName": "$s13SequreSDKLite0A11SDKInstanceC10initialize12uniqueNumber8bundleID6flavor11onCompletedySi_SSAA17ClassificationEnvOyycSgtF",
             "moduleName": "SequreSDKLite",
             "declAttributes": [
-              "AccessControl"
+              "Final",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SequreSDKLite0A11SDKInstanceC5resetyyF",
+            "mangledName": "$s13SequreSDKLite0A11SDKInstanceC5resetyyF",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isReady",
+            "printedName": "isReady",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SequreSDKLite0A11SDKInstanceC7isReadySbvp",
+            "mangledName": "$s13SequreSDKLite0A11SDKInstanceC7isReadySbvp",
+            "moduleName": "SequreSDKLite",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SequreSDKLite0A11SDKInstanceC7isReadySbvg",
+                "mangledName": "$s13SequreSDKLite0A11SDKInstanceC7isReadySbvg",
+                "moduleName": "SequreSDKLite",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -4246,7 +7053,10 @@
         "mangledName": "$s13SequreSDKLite0A11SDKInstanceC",
         "moduleName": "SequreSDKLite",
         "declAttributes": [
-          "AccessControl"
+          "Final",
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
@@ -4285,6 +7095,13 @@
             ],
             "usr": "s:7Combine16ObservableObjectP",
             "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4402,6 +7219,97 @@
         "funcSelfKind": "NonMutating"
       },
       {
+        "kind": "Function",
+        "name": "getFocalLength",
+        "printedName": "getFocalLength()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "CGFloat",
+            "printedName": "CoreGraphics.CGFloat",
+            "usr": "s:14CoreFoundation7CGFloatV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13SequreSDKLite14getFocalLength14CoreFoundation7CGFloatVyF",
+        "mangledName": "$s13SequreSDKLite14getFocalLength12CoreGraphics7CGFloatVyF",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getSensorSize",
+        "printedName": "getSensorSize()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Tuple",
+            "printedName": "(width: CoreGraphics.CGFloat, height: CoreGraphics.CGFloat)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13SequreSDKLite13getSensorSize14CoreFoundation7CGFloatV5width_AE6heighttyF",
+        "mangledName": "$s13SequreSDKLite13getSensorSize12CoreGraphics7CGFloatV5width_AE6heighttyF",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getHyperParameter",
+        "printedName": "getHyperParameter(isSquare:zoom:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "CGFloat",
+            "printedName": "CoreGraphics.CGFloat",
+            "usr": "s:14CoreFoundation7CGFloatV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13SequreSDKLite17getHyperParameter8isSquare4zoomSfSb_14CoreFoundation7CGFloatVtF",
+        "mangledName": "$s13SequreSDKLite17getHyperParameter8isSquare4zoomSfSb_12CoreGraphics7CGFloatVtF",
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -4428,6 +7336,629 @@
         "printedName": "DeveloperToolsSupport",
         "declKind": "Import",
         "moduleName": "SequreSDKLite"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVCaptureSession",
+        "printedName": "AVCaptureSession",
+        "declKind": "Class",
+        "usr": "c:objc(cs)AVCaptureSession",
+        "moduleName": "AVFoundation",
+        "isOpen": true,
+        "intro_iOS": "4.0",
+        "objc_name": "AVCaptureSession",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVCaptureDeviceInput",
+        "printedName": "AVCaptureDeviceInput",
+        "declKind": "Class",
+        "usr": "c:objc(cs)AVCaptureDeviceInput",
+        "moduleName": "AVFoundation",
+        "isOpen": true,
+        "intro_iOS": "4.0",
+        "objc_name": "AVCaptureDeviceInput",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)AVCaptureInput",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AVFoundation.AVCaptureInput",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVCapturePhotoOutput",
+        "printedName": "AVCapturePhotoOutput",
+        "declKind": "Class",
+        "usr": "c:objc(cs)AVCapturePhotoOutput",
+        "moduleName": "AVFoundation",
+        "isOpen": true,
+        "intro_iOS": "10.0",
+        "objc_name": "AVCapturePhotoOutput",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)AVCaptureOutput",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AVFoundation.AVCaptureOutput",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVCaptureVideoDataOutput",
+        "printedName": "AVCaptureVideoDataOutput",
+        "declKind": "Class",
+        "usr": "c:objc(cs)AVCaptureVideoDataOutput",
+        "moduleName": "AVFoundation",
+        "isOpen": true,
+        "intro_iOS": "4.0",
+        "objc_name": "AVCaptureVideoDataOutput",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)AVCaptureOutput",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "AVFoundation.AVCaptureOutput",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVCaptureDevice",
+        "printedName": "AVCaptureDevice",
+        "declKind": "Class",
+        "usr": "c:objc(cs)AVCaptureDevice",
+        "moduleName": "AVFoundation",
+        "isOpen": true,
+        "intro_iOS": "4.0",
+        "objc_name": "AVCaptureDevice",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVCaptureConnection",
+        "printedName": "AVCaptureConnection",
+        "declKind": "Class",
+        "usr": "c:objc(cs)AVCaptureConnection",
+        "moduleName": "AVFoundation",
+        "isOpen": true,
+        "intro_iOS": "4.0",
+        "objc_name": "AVCaptureConnection",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -4435,29 +7966,71 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 740,
-      "length": 1,
-      "value": "0"
+      "kind": "BooleanLiteral",
+      "offset": 414,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 780,
-      "length": 1,
-      "value": "0"
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 17,
+      "value": "\"useLensPosition\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 814,
+      "offset": 452,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 856,
+      "offset": 492,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 522,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 611,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 707,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 747,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 781,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 823,
       "length": 5,
       "value": "false"
     },
@@ -4485,23 +8058,16 @@
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/UIView\/ScanQROverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 923,
+      "offset": 929,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/UIView\/ScanQROverlay.swift",
       "kind": "BooleanLiteral",
-      "offset": 1000,
+      "offset": 1006,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/CustomFont.swift",
-      "kind": "BooleanLiteral",
-      "offset": 229,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/BundleReference.swift",
@@ -4527,504 +8093,637 @@
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/UIView\/LabelOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 349,
+      "offset": 355,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/DistanceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 571,
+      "offset": 556,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/DistanceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 623,
+      "offset": 608,
       "length": 4,
       "value": "0.67"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/DistanceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 843,
+      "offset": 828,
       "length": 3,
       "value": "2.1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/DistanceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 887,
+      "offset": 872,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/DistanceDetector.swift",
       "kind": "IntegerLiteral",
-      "offset": 927,
+      "offset": 912,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/UIView\/BoundingBoxView.swift",
       "kind": "Array",
-      "offset": 339,
+      "offset": 345,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/UIView\/BoundingBoxView.swift",
       "kind": "FloatLiteral",
-      "offset": 540,
+      "offset": 546,
       "length": 3,
       "value": "1.3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/UIView\/BoundingBoxView.swift",
       "kind": "FloatLiteral",
-      "offset": 624,
+      "offset": 630,
       "length": 3,
       "value": "1.3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/UIView\/BoundingBoxView.swift",
       "kind": "FloatLiteral",
-      "offset": 722,
+      "offset": 728,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/UIView\/BoundingBoxView.swift",
       "kind": "FloatLiteral",
-      "offset": 773,
+      "offset": 779,
       "length": 3,
       "value": "1.7"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/UIView\/BoundingBoxView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1013,
+      "offset": 1019,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/UIView\/BoundingBoxView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4606,
+      "offset": 4612,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/UIView\/BoundingBoxView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7160,
+      "offset": 7166,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Sendables\/RegistrationState.swift",
       "kind": "BooleanLiteral",
-      "offset": 396,
+      "offset": 280,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 540,
-      "length": 14,
-      "value": "\"sessionQueue\""
+      "kind": "BooleanLiteral",
+      "offset": 366,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1530,
+      "offset": 1431,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1631,
+      "offset": 1528,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4912,
+      "offset": 4715,
       "length": 33,
       "value": "\"No suitable camera device found\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5450,
+      "offset": 5249,
       "length": 47,
       "value": "\"Failed to create video device input: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5496,
+      "offset": 5295,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5900,
+      "offset": 5687,
       "length": 12,
       "value": "\"videoQueue\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "Array",
-      "offset": 5973,
+      "offset": 5760,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6151,
+      "offset": 5930,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6402,
+      "offset": 6161,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10373,
+      "offset": 7873,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/ModelDeobfuscator.swift",
       "kind": "StringLiteral",
-      "offset": 172,
+      "offset": 178,
       "length": 23,
       "value": "\"SequreSDK2024ModelKey\""
     },
     {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/ExpectedDistanceCalculator.swift",
+      "kind": "FloatLiteral",
+      "offset": 1355,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/ExpectedDistanceCalculator.swift",
+      "kind": "FloatLiteral",
+      "offset": 1857,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/ExpectedDistanceCalculator.swift",
+      "kind": "FloatLiteral",
+      "offset": 1892,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 158,
+      "offset": 168,
       "length": 78,
       "value": "\"https:\/\/sequrepro-prod-362191430784.asia-southeast2.run.app\/image_validation\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 283,
+      "offset": 293,
       "length": 91,
       "value": "\"https:\/\/qtrustaiteam-update-staging-362191430784.asia-southeast2.run.app\/image_validation\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 419,
+      "offset": 429,
       "length": 42,
       "value": "\"https:\/\/mobile.sequre.id\/v3\/sdk\/validate\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 506,
+      "offset": 516,
       "length": 43,
       "value": "\"https:\/\/smobile.sequre.id\/v3\/sdk\/validate\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 602,
       "length": 42,
       "value": "\"https:\/\/mobile.sequre.id\/v3\/check-device\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 677,
+      "offset": 687,
       "length": 43,
       "value": "\"https:\/\/smobile.sequre.id\/v3\/check-device\""
     },
     {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Monitors\/NetworkStatusMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 385,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Monitors\/NetworkStatusMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 614,
+      "length": 16,
+      "value": "\"networkmonitor\""
+    },
+    {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SequreSDKRootViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 988,
+      "offset": 1006,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SequreSDKRootViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1036,
+      "offset": 1054,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SequreSDKRootViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1140,
+      "offset": 1158,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SequreSDKRootViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1188,
+      "offset": 1206,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SequreSDKRootViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1312,
+      "offset": 1330,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SequreSDKRootViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1359,
+      "offset": 1377,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SequreSDKRootViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1471,
+      "offset": 1468,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SequreSDKRootViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1519,
+      "offset": 1516,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SequreSDKRootViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 1648,
+      "offset": 1624,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Services\/MultipartRequest.swift",
       "kind": "StringLiteral",
-      "offset": 561,
+      "offset": 576,
       "length": 6,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/BarcodeHelper.swift",
       "kind": "Array",
-      "offset": 159,
+      "offset": 462,
       "length": 31,
       "value": "[\"qtru.st\", \"qtr.pw\", \"ahm.to\"]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/QRCameraFeedController.swift",
       "kind": "BooleanLiteral",
-      "offset": 446,
+      "offset": 407,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/QRCameraFeedController.swift",
       "kind": "BooleanLiteral",
-      "offset": 540,
+      "offset": 509,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 585,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 856,
+      "length": 14,
+      "value": "\"sequre-v2-od\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 880,
+      "length": 8,
+      "value": "\"tflite\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1022,
+      "length": 14,
+      "value": "\"sequre-v2-od\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1165,
+      "length": 17,
+      "value": "\"Model not found\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1329,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
+      "kind": "FloatLiteral",
+      "offset": 1385,
+      "length": 4,
+      "value": "0.23"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1629,
+      "length": 68,
+      "value": "\"Failed to initialize ObjectDetector: \""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 1696,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Services\/NetworkServices.swift",
+      "kind": "FloatLiteral",
+      "offset": 496,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Services\/NetworkServices.swift",
+      "kind": "BooleanLiteral",
+      "offset": 546,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "Array",
-      "offset": 493,
+      "offset": 603,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 563,
+      "offset": 682,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "StringLiteral",
-      "offset": 578,
+      "offset": 705,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "FloatLiteral",
-      "offset": 596,
+      "offset": 731,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "FloatLiteral",
-      "offset": 612,
+      "offset": 755,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 627,
+      "offset": 778,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 738,
+      "offset": 810,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
+      "kind": "FloatLiteral",
+      "offset": 835,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
+      "kind": "FloatLiteral",
+      "offset": 866,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 980,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 792,
+      "offset": 1034,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 901,
+      "offset": 1143,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 1001,
+      "offset": 1243,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "IntegerLiteral",
-      "offset": 1163,
+      "offset": 1405,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "IntegerLiteral",
-      "offset": 1199,
+      "offset": 1441,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "IntegerLiteral",
-      "offset": 1235,
+      "offset": 1477,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "IntegerLiteral",
-      "offset": 1271,
+      "offset": 1513,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 1717,
+      "offset": 1959,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "FloatLiteral",
-      "offset": 2870,
+      "offset": 3112,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3177,
+      "offset": 3419,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3275,
+      "offset": 3517,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3389,
+      "offset": 3631,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3485,
+      "offset": 3727,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3579,
+      "offset": 3821,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 4852,
+      "offset": 5274,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "StringLiteral",
-      "offset": 4923,
+      "offset": 5345,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 4996,
+      "offset": 5418,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 5030,
+      "offset": 5452,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/SequreSDKInstance.swift",
       "kind": "BooleanLiteral",
-      "offset": 353,
+      "offset": 460,
       "length": 5,
       "value": "false"
     },
