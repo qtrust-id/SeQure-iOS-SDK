@@ -3023,7 +3023,8 @@
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -3137,7 +3138,8 @@
               "Final",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3271,7 +3273,8 @@
             "moduleName": "SequreSDKLite",
             "declAttributes": [
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -3311,7 +3314,8 @@
             "declAttributes": [
               "Custom",
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -3323,7 +3327,8 @@
         "declAttributes": [
           "Final",
           "AccessControl",
-          "Custom"
+          "Custom",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -3692,7 +3697,8 @@
             "moduleName": "SequreSDKLite",
             "declAttributes": [
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -8079,21 +8085,21 @@
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/BundleReference.swift",
       "kind": "StringLiteral",
-      "offset": 311,
+      "offset": 317,
       "length": 17,
       "value": "\"SequreSDKAssets\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/BundleReference.swift",
       "kind": "StringLiteral",
-      "offset": 345,
+      "offset": 351,
       "length": 8,
       "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/BundleReference.swift",
       "kind": "StringLiteral",
-      "offset": 2343,
+      "offset": 2349,
       "length": 22,
       "value": "\"SequreSDKLocalizable\""
     },
@@ -8352,14 +8358,14 @@
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Monitors\/NetworkStatusMonitor.swift",
       "kind": "BooleanLiteral",
-      "offset": 385,
+      "offset": 406,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Monitors\/NetworkStatusMonitor.swift",
       "kind": "StringLiteral",
-      "offset": 614,
+      "offset": 789,
       "length": 16,
       "value": "\"networkmonitor\""
     },
