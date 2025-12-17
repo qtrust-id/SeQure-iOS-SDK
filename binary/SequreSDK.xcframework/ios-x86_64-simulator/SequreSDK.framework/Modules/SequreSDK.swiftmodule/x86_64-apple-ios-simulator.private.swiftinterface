@@ -255,6 +255,7 @@ public func isSpecialCase() -> Swift.Bool
 public func getFocalLength() -> CoreFoundation.CGFloat
 public func getSensorSize() -> (width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat)
 public func getHyperParameter(isSquare: Swift.Bool, zoom: CoreFoundation.CGFloat) -> Swift.Float
+public func getInitialZoomFactor() -> CoreFoundation.CGFloat
 extension SequreSDK.ClassificationEnv : Swift.Equatable {}
 extension SequreSDK.ClassificationEnv : Swift.Hashable {}
 extension SequreSDK.ClassificationEnv : Swift.Sendable {}

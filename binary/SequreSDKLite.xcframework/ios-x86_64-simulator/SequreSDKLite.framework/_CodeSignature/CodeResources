@@ -22,23 +22,23 @@
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		n9GkWH4E+3UEB+T7d7mTJvE8F8o=
+		0nnE8lRaGJ93DhoIkZp98aFUyG4=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		G645YnPoAE4JVxFTbbB4NX2i5MU=
+		efH9J3/f9v/OxTD6XBz01F32mhs=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ETWIp5ENf9luzXUcnLNO46jg/Sk=
+		ju+la3Z0rOTESWWfJU5YOziBEP4=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		G645YnPoAE4JVxFTbbB4NX2i5MU=
+		efH9J3/f9v/OxTD6XBz01F32mhs=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M9EezOy6PkyxKOajlAzgEl8ZO4I=
+		44xM0UaeRtc1Xs4nYqDRpIxGivY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,35 +94,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CAJhq4fP6A9DFdLOcREsoMujRmVeJ8tfLkyAiWdhdis=
+			M9yohSM7wJG0b+/m9C9s73ufLcdWqUmCys5V1zTRliI=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A1NPDhN9N0N3hozjY15JCN059w+4ppnlph65YXDgeVM=
+			8Ocu70VpEQImZ01Qw56MXcYH2P4dS6v8KLMuTKZQLQQ=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CrKuohfMHvJhE50mFFEbXAZD7KN26Cr/a3JghglG2ko=
+			IHN/owFatgxaxs3xi0Z4fy0H8mFNnU2obLa+y624WRk=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A1NPDhN9N0N3hozjY15JCN059w+4ppnlph65YXDgeVM=
+			8Ocu70VpEQImZ01Qw56MXcYH2P4dS6v8KLMuTKZQLQQ=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RA0jP3acnUjzBSP1/etCvEKvVSC2Csg9hQivx8kaBxE=
+			dSyEm09Av4i20S6m93wOVsnxmt0ZY3bo6c76ksNgoyE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
