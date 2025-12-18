@@ -8240,70 +8240,70 @@
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1446,
+      "offset": 1442,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1543,
+      "offset": 1539,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4560,
+      "offset": 4556,
       "length": 33,
       "value": "\"No suitable camera device found\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5094,
+      "offset": 5090,
       "length": 47,
       "value": "\"Failed to create video device input: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5140,
+      "offset": 5136,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5532,
+      "offset": 5528,
       "length": 12,
       "value": "\"videoQueue\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "Array",
-      "offset": 5605,
+      "offset": 5599,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5775,
+      "offset": 5769,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6006,
+      "offset": 6000,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7632,
+      "offset": 7626,
       "length": 5,
       "value": "false"
     },
