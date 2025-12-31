@@ -7834,6 +7834,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -8403,71 +8417,22 @@
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 377,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1442,
+      "offset": 1516,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1539,
+      "offset": 1613,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4649,
-      "length": 33,
-      "value": "\"No suitable camera device found\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5183,
-      "length": 47,
-      "value": "\"Failed to create video device input: \""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5229,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 5621,
-      "length": 12,
-      "value": "\"videoQueue\""
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
-      "kind": "Array",
-      "offset": 5692,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5862,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/ViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7640,
+      "offset": 7322,
       "length": 5,
       "value": "false"
     },
@@ -8640,13 +8605,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/CameraStream\/QRCameraFeedController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 509,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "FloatLiteral",
       "offset": 585,
@@ -8656,56 +8614,56 @@
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 856,
+      "offset": 885,
       "length": 14,
       "value": "\"sequre-v2-od\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 880,
+      "offset": 909,
       "length": 8,
       "value": "\"tflite\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1022,
+      "offset": 1051,
       "length": 14,
       "value": "\"sequre-v2-od\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1165,
+      "offset": 1194,
       "length": 17,
       "value": "\"Model not found\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1329,
+      "offset": 1358,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 1385,
+      "offset": 1414,
       "length": 4,
       "value": "0.23"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1629,
+      "offset": 1658,
       "length": 68,
       "value": "\"Failed to initialize ObjectDetector: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1696,
+      "offset": 1725,
       "length": 2,
       "value": "\"\""
     },
