@@ -108,7 +108,6 @@ public enum SDKNetworkError : Foundation.LocalizedError, Swift.Sendable {
   case noData
   case decodingFailed(any Swift.Error)
   case httpError(statusCode: Swift.Int)
-  case noInternetConnection
   case timeout
   case hostUnreachable
   case unknown(any Swift.Error)
