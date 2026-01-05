@@ -567,6 +567,937 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SequreSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "SequreSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Unsafe"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SequreSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationMonitor",
+        "printedName": "LocationMonitor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK15LocationMonitorC8latitudeSdSgvp",
+            "mangledName": "$s9SequreSDK15LocationMonitorC8latitudeSdSgvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK15LocationMonitorC8latitudeSdSgvg",
+                "mangledName": "$s9SequreSDK15LocationMonitorC8latitudeSdSgvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$latitude",
+            "printedName": "$latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK15LocationMonitorC9$latitude7Combine9PublishedV9PublisherVySdSg_Gvp",
+            "mangledName": "$s9SequreSDK15LocationMonitorC9$latitude7Combine9PublishedV9PublisherVySdSg_Gvp",
+            "moduleName": "SequreSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK15LocationMonitorC9$latitude7Combine9PublishedV9PublisherVySdSg_Gvg",
+                "mangledName": "$s9SequreSDK15LocationMonitorC9$latitude7Combine9PublishedV9PublisherVySdSg_Gvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK15LocationMonitorC9longitudeSdSgvp",
+            "mangledName": "$s9SequreSDK15LocationMonitorC9longitudeSdSgvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Double?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK15LocationMonitorC9longitudeSdSgvg",
+                "mangledName": "$s9SequreSDK15LocationMonitorC9longitudeSdSgvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$longitude",
+            "printedName": "$longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK15LocationMonitorC10$longitude7Combine9PublishedV9PublisherVySdSg_Gvp",
+            "mangledName": "$s9SequreSDK15LocationMonitorC10$longitude7Combine9PublishedV9PublisherVySdSg_Gvp",
+            "moduleName": "SequreSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Double>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK15LocationMonitorC10$longitude7Combine9PublishedV9PublisherVySdSg_Gvg",
+                "mangledName": "$s9SequreSDK15LocationMonitorC10$longitude7Combine9PublishedV9PublisherVySdSg_Gvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authorizationStatus",
+            "printedName": "authorizationStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreLocation.CLAuthorizationStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLAuthorizationStatus",
+                    "printedName": "CoreLocation.CLAuthorizationStatus",
+                    "usr": "c:@E@CLAuthorizationStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK15LocationMonitorC19authorizationStatusSo015CLAuthorizationF0VSgvp",
+            "mangledName": "$s9SequreSDK15LocationMonitorC19authorizationStatusSo015CLAuthorizationF0VSgvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreLocation.CLAuthorizationStatus?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLAuthorizationStatus",
+                        "printedName": "CoreLocation.CLAuthorizationStatus",
+                        "usr": "c:@E@CLAuthorizationStatus"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK15LocationMonitorC19authorizationStatusSo015CLAuthorizationF0VSgvg",
+                "mangledName": "$s9SequreSDK15LocationMonitorC19authorizationStatusSo015CLAuthorizationF0VSgvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$authorizationStatus",
+            "printedName": "$authorizationStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<CoreLocation.CLAuthorizationStatus>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK15LocationMonitorC20$authorizationStatus7Combine9PublishedV9PublisherVySo015CLAuthorizationF0VSg_Gvp",
+            "mangledName": "$s9SequreSDK15LocationMonitorC20$authorizationStatus7Combine9PublishedV9PublisherVySo015CLAuthorizationF0VSg_Gvp",
+            "moduleName": "SequreSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<CoreLocation.CLAuthorizationStatus>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK15LocationMonitorC20$authorizationStatus7Combine9PublishedV9PublisherVySo015CLAuthorizationF0VSg_Gvg",
+                "mangledName": "$s9SequreSDK15LocationMonitorC20$authorizationStatus7Combine9PublishedV9PublisherVySo015CLAuthorizationF0VSg_Gvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locationNotChecked",
+            "printedName": "locationNotChecked",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK15LocationMonitorC18locationNotCheckedSbvp",
+            "mangledName": "$s9SequreSDK15LocationMonitorC18locationNotCheckedSbvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK15LocationMonitorC18locationNotCheckedSbvg",
+                "mangledName": "$s9SequreSDK15LocationMonitorC18locationNotCheckedSbvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$locationNotChecked",
+            "printedName": "$locationNotChecked",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK15LocationMonitorC19$locationNotChecked7Combine9PublishedV9PublisherVySb_Gvp",
+            "mangledName": "$s9SequreSDK15LocationMonitorC19$locationNotChecked7Combine9PublishedV9PublisherVySb_Gvp",
+            "moduleName": "SequreSDK",
+            "implicit": true,
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Bool>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK15LocationMonitorC19$locationNotChecked7Combine9PublishedV9PublisherVySb_Gvg",
+                "mangledName": "$s9SequreSDK15LocationMonitorC19$locationNotChecked7Combine9PublishedV9PublisherVySb_Gvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onStatusChange",
+            "printedName": "onStatusChange",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((CoreLocation.CLAuthorizationStatus) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(CoreLocation.CLAuthorizationStatus) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLAuthorizationStatus",
+                        "printedName": "CoreLocation.CLAuthorizationStatus",
+                        "usr": "c:@E@CLAuthorizationStatus"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9SequreSDK15LocationMonitorC14onStatusChangeySo015CLAuthorizationF0VYbScMYccSgvp",
+            "mangledName": "$s9SequreSDK15LocationMonitorC14onStatusChangeySo015CLAuthorizationF0VYbScMYccSgvp",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((CoreLocation.CLAuthorizationStatus) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreLocation.CLAuthorizationStatus) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CLAuthorizationStatus",
+                            "printedName": "CoreLocation.CLAuthorizationStatus",
+                            "usr": "c:@E@CLAuthorizationStatus"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK15LocationMonitorC14onStatusChangeySo015CLAuthorizationF0VYbScMYccSgvg",
+                "mangledName": "$s9SequreSDK15LocationMonitorC14onStatusChangeySo015CLAuthorizationF0VYbScMYccSgvg",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((CoreLocation.CLAuthorizationStatus) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(CoreLocation.CLAuthorizationStatus) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CLAuthorizationStatus",
+                            "printedName": "CoreLocation.CLAuthorizationStatus",
+                            "usr": "c:@E@CLAuthorizationStatus"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK15LocationMonitorC14onStatusChangeySo015CLAuthorizationF0VYbScMYccSgvs",
+                "mangledName": "$s9SequreSDK15LocationMonitorC14onStatusChangeySo015CLAuthorizationF0VYbScMYccSgvs",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9SequreSDK15LocationMonitorC14onStatusChangeySo015CLAuthorizationF0VYbScMYccSgvM",
+                "mangledName": "$s9SequreSDK15LocationMonitorC14onStatusChangeySo015CLAuthorizationF0VYbScMYccSgvM",
+                "moduleName": "SequreSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationMonitor",
+                "printedName": "SequreSDK.LocationMonitor",
+                "usr": "c:@M@SequreSDK@objc(cs)LocationMonitor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SequreSDK@objc(cs)LocationMonitor(im)init",
+            "mangledName": "$s9SequreSDK15LocationMonitorCACycfc",
+            "moduleName": "SequreSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startMonitoring",
+            "printedName": "startMonitoring()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SequreSDK15LocationMonitorC15startMonitoringyyF",
+            "mangledName": "$s9SequreSDK15LocationMonitorC15startMonitoringyyF",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopMonitoring",
+            "printedName": "stopMonitoring()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SequreSDK15LocationMonitorC14stopMonitoringyyF",
+            "mangledName": "$s9SequreSDK15LocationMonitorC14stopMonitoringyyF",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermissionIfPossible",
+            "printedName": "requestPermissionIfPossible()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SequreSDK15LocationMonitorC27requestPermissionIfPossibleyyF",
+            "mangledName": "$s9SequreSDK15LocationMonitorC27requestPermissionIfPossibleyyF",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isLocationAuthenticated",
+            "printedName": "isLocationAuthenticated()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9SequreSDK15LocationMonitorC02isC13AuthenticatedSbyF",
+            "mangledName": "$s9SequreSDK15LocationMonitorC02isC13AuthenticatedSbyF",
+            "moduleName": "SequreSDK",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didUpdateLocations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[_LocationEssentials.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "_LocationEssentials.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SequreSDK@objc(cs)LocationMonitor(im)locationManager:didUpdateLocations:",
+            "mangledName": "$s9SequreSDK15LocationMonitorC15locationManager_18didUpdateLocationsySo010CLLocationF0C_SaySo0J0CGtF",
+            "moduleName": "SequreSDK",
+            "objc_name": "locationManager:didUpdateLocations:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Nonisolated",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManagerDidChangeAuthorization",
+            "printedName": "locationManagerDidChangeAuthorization(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SequreSDK@objc(cs)LocationMonitor(im)locationManagerDidChangeAuthorization:",
+            "mangledName": "$s9SequreSDK15LocationMonitorC37locationManagerDidChangeAuthorizationyySo010CLLocationF0CF",
+            "moduleName": "SequreSDK",
+            "objc_name": "locationManagerDidChangeAuthorization:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Nonisolated",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SequreSDK@objc(cs)LocationMonitor",
+        "mangledName": "$s9SequreSDK15LocationMonitorC",
+        "moduleName": "SequreSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -6097,7 +7028,7 @@
           {
             "kind": "Function",
             "name": "postRequest",
-            "printedName": "postRequest(url:parameters:responseType:)",
+            "printedName": "postRequest(url:parameters:headers:responseType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6127,6 +7058,35 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Metatype",
                 "printedName": "τ_0_0.Type",
                 "children": [
@@ -6139,8 +7099,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9SequreSDK014NetworkServiceB0C11postRequest3url10parameters12responseTypexSS_SE_pSgxmtYaKSeRzs8SendableRzlF",
-            "mangledName": "$s9SequreSDK014NetworkServiceB0C11postRequest3url10parameters12responseTypexSS_SE_pSgxmtYaKSeRzs8SendableRzlF",
+            "usr": "s:9SequreSDK014NetworkServiceB0C11postRequest3url10parameters7headers12responseTypexSS_SE_pSgSDyS2SGSgxmtYaKSeRzs8SendableRzlF",
+            "mangledName": "$s9SequreSDK014NetworkServiceB0C11postRequest3url10parameters7headers12responseTypexSS_SE_pSgSDyS2SGSgxmtYaKSeRzs8SendableRzlF",
             "moduleName": "SequreSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Sendable>",
             "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Sendable>",
@@ -8242,6 +9202,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/ViewModels\/SDKLogicScanViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1901,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/ImageOperation.swift",
       "kind": "IntegerLiteral",
       "offset": 1368,
@@ -8268,6 +9235,13 @@
       "offset": 4643,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Monitors\/LocationMonitor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 768,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/UIView\/ScanQROverlay.swift",
@@ -8678,35 +9652,35 @@
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "FloatLiteral",
-      "offset": 1505,
+      "offset": 1570,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3168,
+      "offset": 3233,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "StringLiteral",
-      "offset": 3239,
+      "offset": 3304,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3312,
+      "offset": 3377,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Shared\/Page\/QRScannerPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 3346,
+      "offset": 3411,
       "length": 5,
       "value": "false"
     },

@@ -204,13 +204,61 @@ extension AVFoundation.AVCaptureDevice : @unchecked @retroactive Swift.Sendable 
 }
 extension AVFoundation.AVCaptureConnection : @unchecked @retroactive Swift.Sendable {
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor final public class LocationMonitor : ObjectiveC.NSObject, Combine.ObservableObject, CoreLocation.CLLocationManagerDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @Combine.Published @_projectedValueProperty($latitude) @_Concurrency.MainActor final public var latitude: Swift.Double? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var $latitude: Combine.Published<Swift.Double?>.Publisher {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @Combine.Published @_projectedValueProperty($longitude) @_Concurrency.MainActor final public var longitude: Swift.Double? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var $longitude: Combine.Published<Swift.Double?>.Publisher {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @Combine.Published @_projectedValueProperty($authorizationStatus) @_Concurrency.MainActor final public var authorizationStatus: CoreLocation.CLAuthorizationStatus? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var $authorizationStatus: Combine.Published<CoreLocation.CLAuthorizationStatus?>.Publisher {
+    get
+  }
+  #endif
+  @Combine.Published @_projectedValueProperty($locationNotChecked) @_Concurrency.MainActor final public var locationNotChecked: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor final public var $locationNotChecked: Combine.Published<Swift.Bool>.Publisher {
+    get
+  }
+  @_Concurrency.MainActor final public var onStatusChange: (@_Concurrency.MainActor @Sendable (CoreLocation.CLAuthorizationStatus) -> Swift.Void)?
+  @_Concurrency.MainActor @objc override dynamic public init()
+  @objc deinit
+  @_Concurrency.MainActor final public func startMonitoring()
+  @_Concurrency.MainActor final public func stopMonitoring()
+  @_Concurrency.MainActor final public func requestPermissionIfPossible()
+  @_Concurrency.MainActor final public func isLocationAuthenticated() -> Swift.Bool
+  @objc nonisolated final public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [_LocationEssentials.CLLocation])
+  @objc nonisolated final public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
 @_hasMissingDesignatedInitializers public actor NetworkServiceSDK {
   public static let shared: SequreSDKLite.NetworkServiceSDK
   #if compiler(>=5.3) && $NonescapableTypes
   public func uploadFile<T>(url: Swift.String, fileData: Foundation.Data?, fileName: Swift.String, mimeType: Swift.String, parameters: [Swift.String : Swift.String]? = nil, responseType: T.Type) async throws -> T where T : Swift.Decodable, T : Swift.Sendable
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public func postRequest<T>(url: Swift.String, parameters: (any Swift.Encodable)? = nil, responseType: T.Type) async throws -> T where T : Swift.Decodable, T : Swift.Sendable
+  public func postRequest<T>(url: Swift.String, parameters: (any Swift.Encodable)? = nil, headers: [Swift.String : Swift.String]? = nil, responseType: T.Type) async throws -> T where T : Swift.Decodable, T : Swift.Sendable
   #endif
   @objc deinit
   @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
@@ -261,5 +309,6 @@ extension SequreSDKLite.CameraPermissionMonitor : Swift.Sendable {}
 extension SequreSDKLite.NetworkStatusMonitor : Swift.Sendable {}
 extension SequreSDKLite.StatusDialogScan : Swift.Equatable {}
 extension SequreSDKLite.StatusDialogScan : Swift.Hashable {}
+extension SequreSDKLite.LocationMonitor : Swift.Sendable {}
 extension SequreSDKLite.QRScannerPage : Swift.Sendable {}
 extension SequreSDKLite.SequreSDKInstance : Swift.Sendable {}

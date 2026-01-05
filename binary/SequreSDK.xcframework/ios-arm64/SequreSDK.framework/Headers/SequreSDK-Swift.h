@@ -281,6 +281,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreLocation;
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -302,6 +305,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+@class CLLocationManager;
+@class CLLocation;
+/// A monitor that observes location updates and authorization status.
+SWIFT_CLASS("_TtC9SequreSDK15LocationMonitor")
+@interface LocationMonitor : NSObject <CLLocationManagerDelegate>
+/// Initializes the LocationMonitor.
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+/// CLLocationManagerDelegate method that is called when the location manager updates the location.
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+/// CLLocationManagerDelegate method that is called when the authorization status for location services changes.
+- (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)
