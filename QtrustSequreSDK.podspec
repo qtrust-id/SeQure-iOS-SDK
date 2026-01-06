@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "QtrustSequreSDK"
-  s.version               = "1.1.0"
+  s.version               = "1.1.1"
   s.summary               = "Sequre Scanner SDK framework."
   s.description           = "Sequre Scanner SDK for detecting QR codes."
   s.homepage              = "https://github.com/dewangga18/qtrust_sequre_sdk"
@@ -10,9 +10,6 @@ Pod::Spec.new do |s|
   s.swift_versions        = "6.0"
   s.source                = { :git => "https://github.com/dewangga18/qtrust_sequre_sdk.git", :tag => s.version.to_s }        
 
-  s.dependency "TensorFlowLiteTaskVision", "0.4.3"
-  s.dependency "OpenCV", "4.3.0"
-
   s.resource_bundles = {
     'SequreSDKAssets' => [
       'SupportedFiles/**/*.gif', 
@@ -20,15 +17,6 @@ Pod::Spec.new do |s|
   }
 
   s.static_framework = true
-
-  s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-    'ONLY_ACTIVE_ARCH'                     => 'YES'
-  }
-  s.user_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-
   s.default_subspec = 'Full'
 
   s.subspec 'Full' do |full|

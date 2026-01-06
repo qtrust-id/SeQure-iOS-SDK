@@ -313,9 +313,10 @@ SWIFT_CLASS("_TtC9SequreSDK15LocationMonitor")
 @interface LocationMonitor : NSObject <CLLocationManagerDelegate>
 /// Initializes the LocationMonitor.
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// CLLocationManagerDelegate method that is called when the location manager updates the location.
+/// Called when the location manager updates the device location.
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
-/// CLLocationManagerDelegate method that is called when the authorization status for location services changes.
+/// Called whenever location authorization changes.
+/// This is the ONLY place where authorization state is processed.
 - (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;
 @end
 

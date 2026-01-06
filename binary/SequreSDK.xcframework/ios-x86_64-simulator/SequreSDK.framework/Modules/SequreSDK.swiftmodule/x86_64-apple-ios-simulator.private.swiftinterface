@@ -17,7 +17,6 @@ import Network
 @_exported import SequreSDK
 import Swift
 import SwiftUI
-import TensorFlowLiteTaskVision
 import UIKit
 import Vision
 import WebKit
@@ -92,13 +91,11 @@ public struct SequreRepositorySDK : Swift.Sendable {
   }
   @_Concurrency.MainActor final public var onStatusChange: (@_Concurrency.MainActor @Sendable (CoreLocation.CLAuthorizationStatus) -> Swift.Void)?
   @_Concurrency.MainActor @objc override dynamic public init()
-  @objc deinit
   @_Concurrency.MainActor final public func startMonitoring()
   @_Concurrency.MainActor final public func stopMonitoring()
-  @_Concurrency.MainActor final public func requestPermissionIfPossible()
-  @_Concurrency.MainActor final public func isLocationAuthenticated() -> Swift.Bool
   @objc nonisolated final public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [_LocationEssentials.CLLocation])
   @objc nonisolated final public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
+  @objc deinit
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
 }
 #if compiler(>=5.3) && $NonescapableTypes

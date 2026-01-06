@@ -2537,7 +2537,10 @@
         "name": "TensorFlowLiteTaskVision",
         "printedName": "TensorFlowLiteTaskVision",
         "declKind": "Import",
-        "moduleName": "SequreSDKLite"
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -5158,7 +5161,10 @@
         "name": "TensorFlowLiteTaskVision",
         "printedName": "TensorFlowLiteTaskVision",
         "declKind": "Import",
-        "moduleName": "SequreSDKLite"
+        "moduleName": "SequreSDKLite",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -6271,7 +6277,8 @@
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
-              "Custom"
+              "Custom",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -6567,53 +6574,6 @@
             "declKind": "Func",
             "usr": "s:13SequreSDKLite15LocationMonitorC14stopMonitoringyyF",
             "mangledName": "$s13SequreSDKLite15LocationMonitorC14stopMonitoringyyF",
-            "moduleName": "SequreSDKLite",
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "requestPermissionIfPossible",
-            "printedName": "requestPermissionIfPossible()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13SequreSDKLite15LocationMonitorC27requestPermissionIfPossibleyyF",
-            "mangledName": "$s13SequreSDKLite15LocationMonitorC27requestPermissionIfPossibleyyF",
-            "moduleName": "SequreSDKLite",
-            "declAttributes": [
-              "Custom",
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isLocationAuthenticated",
-            "printedName": "isLocationAuthenticated()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:13SequreSDKLite15LocationMonitorC02isC13AuthenticatedSbyF",
-            "mangledName": "$s13SequreSDKLite15LocationMonitorC02isC13AuthenticatedSbyF",
             "moduleName": "SequreSDKLite",
             "declAttributes": [
               "Custom",
@@ -9537,70 +9497,70 @@
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 585,
+      "offset": 606,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 885,
+      "offset": 906,
       "length": 14,
       "value": "\"sequre-v2-od\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 909,
+      "offset": 930,
       "length": 8,
       "value": "\"tflite\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1051,
+      "offset": 1072,
       "length": 14,
       "value": "\"sequre-v2-od\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1194,
+      "offset": 1215,
       "length": 17,
       "value": "\"Model not found\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "IntegerLiteral",
-      "offset": 1358,
+      "offset": 1379,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 1414,
+      "offset": 1435,
       "length": 4,
       "value": "0.23"
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1658,
+      "offset": 1679,
       "length": 68,
       "value": "\"Failed to initialize ObjectDetector: \""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Functions\/QRDetectionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 1725,
+      "offset": 1746,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/Documents\/sdk-test\/SequreSDK\/Lib\/Utils\/Monitors\/LocationMonitor.swift",
       "kind": "BooleanLiteral",
-      "offset": 768,
+      "offset": 845,
       "length": 4,
       "value": "true"
     },

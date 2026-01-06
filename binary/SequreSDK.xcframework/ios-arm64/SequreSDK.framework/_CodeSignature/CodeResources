@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/SequreSDK-Swift.h</key>
 		<data>
-		0fjn+9gYciAa7iR1GWIRlLo3yQM=
+		tpMSoOs2wWcPv1zzIHfWUB5F0+Q=
 		</data>
 		<key>Headers/SequreSDK.h</key>
 		<data>
@@ -38,23 +38,23 @@
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		WHYQXgPH+LbRgSAfIGq9EbNIou0=
+		VMnW6qXV3gIlVo03Z80094M8gSA=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Ue7QfjHXmaPkEgMO3zoq74ZykXs=
+		+q69AYhYRf2s4uxD6agCx++/tRc=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		mWd14CEWm8HLCvww85ZRi8nxQrA=
+		gAsjhm+YNCEWAzPKqkOSESAik04=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Ue7QfjHXmaPkEgMO3zoq74ZykXs=
+		+q69AYhYRf2s4uxD6agCx++/tRc=
 		</data>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9ajdD126e812HjfQs9haqMUHMOA=
+		RpfvFmeXiONUQzKSXe21d8Jt+7E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pHGUVY4aCdBM0t42rQBovnpJxHxsRCwaqqfYMJygLi8=
+			a98sQFxyGLqcNq4VGedxCTOemcG9y+xTd1AoSXvcUTo=
 			</data>
 		</dict>
 		<key>Headers/SequreSDK.h</key>
@@ -138,35 +138,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kJStqMQ1SzOeSLdo3JgNlAHGtMlbrXu6y6W7G28MOBI=
+			kLvOJEZpAN7L/zV7qSuV8ts4YG8H5j/Pqt9TdthFDO0=
 			</data>
 		</dict>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			172l5FhP/3G5pbw8dROUqfCzvACj9f/UrClmLNKFlR0=
+			LPe2+qZbta2mVJ5vREVNdqnPk/blc5LmPiIniouzNp4=
 			</data>
 		</dict>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PTClX0AL3Xk5fg5Bp+DkrE1OAeGy8w2v3zeZwgBVSS4=
+			AG4GrlOHOKkYu2Ttr1Rc4azRk6ar20vWCRyhrjfgpfw=
 			</data>
 		</dict>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			172l5FhP/3G5pbw8dROUqfCzvACj9f/UrClmLNKFlR0=
+			LPe2+qZbta2mVJ5vREVNdqnPk/blc5LmPiIniouzNp4=
 			</data>
 		</dict>
 		<key>Modules/SequreSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rPSfy9d3j7CdYBCQpqDbjuXxXO4jT4tWM3/jfk7kiaE=
+			Kdrb4/R9G9J4uQtd6YXxT2SqfmYosIrbWssVD9NRxOU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

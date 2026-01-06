@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/SequreSDKLite-Swift.h</key>
 		<data>
-		JqIO3yskxp6B3IYWdfAYMGXa938=
+		un3j2oY1auhS7QsKzAhaZ3amWiE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -22,23 +22,23 @@
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		52YIGzS6LS33OcbMoQpbXXsgS9E=
+		lSKjR8fRkqxwjIqSd+7EE/f9tW4=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		RFNNEvdtZx8NO+4GXGrX9wNcFaU=
+		bmPBSm12+JHK1K1Q2zuUVdgo7GI=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2Pj5k7/fJA2rMYOqLQGTlF9t10M=
+		50iE3X3kENDlzlldkKIckg/O8bI=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		RFNNEvdtZx8NO+4GXGrX9wNcFaU=
+		bmPBSm12+JHK1K1Q2zuUVdgo7GI=
 		</data>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PyGlnzH+kjltlEaR8PfcvBjHCN4=
+		Kh6mYc/7y/4Lx42e/Jo9d521j7A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,42 +87,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/z/1u3k5bLqakutcz85P0rTaN8AJCMXxs+GwmXrMRl8=
+			JXWhkLDDRbX6rnRTgEJrIuvo8q4IcGs2sMJNLHvtRpU=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J+mgeBKJ08bEqC2jzNOIfWNn2KNOGAb/nroGrnRNCk8=
+			TU20iFMFEsoNFRRkmg+fY/2RduLrjE7NVVSs4uygM3Q=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yy8LBoOyGaYukN9Cu/fK72uOoBK6oxQYHEME5jCvqHk=
+			qIKV1vBQtbnKF3K21Z/IcMEXUE3Cq7lIuFWiYOItsSM=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zug0t+wg+Qw8h4hInV9s9N0GyhMaGjM37moDg7T7+JM=
+			Vr2GNPZpwaKnPquI8DZkxRkvffKBAYKEhMtsBXX+fQ4=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yy8LBoOyGaYukN9Cu/fK72uOoBK6oxQYHEME5jCvqHk=
+			qIKV1vBQtbnKF3K21Z/IcMEXUE3Cq7lIuFWiYOItsSM=
 			</data>
 		</dict>
 		<key>Modules/SequreSDKLite.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MNj3oTFyswaSoAqlzjtR3LNaY910xqDTF/W1c/gT2kw=
+			9dhnb3t0OtblENqgru7x0n8TTveG2yIcxmCtwqaywqY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
