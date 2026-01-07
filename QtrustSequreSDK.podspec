@@ -26,4 +26,12 @@ Pod::Spec.new do |s|
   s.subspec 'Lite' do |lite|
     lite.vendored_frameworks = 'binary/SequreSDKLite.xcframework'
   end
+  
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+    'ONLY_ACTIVE_ARCH'                     => 'YES'
+  }
+  s.user_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
 end
