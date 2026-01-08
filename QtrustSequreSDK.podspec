@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "QtrustSequreSDK"
-  s.version               = "1.1.1"
+  s.version               = "1.1.2"
   s.summary               = "Sequre Scanner SDK framework."
   s.description           = "Sequre Scanner SDK for detecting QR codes."
   s.homepage              = "https://github.com/dewangga18/qtrust_sequre_sdk"
