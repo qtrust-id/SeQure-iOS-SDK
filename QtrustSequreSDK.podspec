@@ -10,12 +10,6 @@ Pod::Spec.new do |s|
   s.swift_versions        = "6.0"
   s.source                = { :git => "https://github.com/dewangga18/qtrust_sequre_sdk.git", :tag => s.version.to_s }        
 
-  s.resource_bundles = {
-    'SequreSDKAssets' => [
-      'SupportedFiles/**/*.gif', 
-    ]
-  }
-
   s.static_framework = true
   s.default_subspec = 'Full'
 
