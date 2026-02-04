@@ -27,7 +27,7 @@ Or in Xcode:
 Import the SDK in your Swift files:
 
 ```swift
-import SequreRealtimeSDK
+import SequreSDK
 ```
 
 ## License
@@ -37,3 +37,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Email Support
 
 contact@qtrust.id
+aaronevanjulio@venturo.pro
