@@ -1,0 +1,11 @@
+framework module SequreSDK {
+  umbrella header "SequreSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module SequreSDK.Swift {
+  header "SequreSDK-Swift.h"
+  requires objc
+}
