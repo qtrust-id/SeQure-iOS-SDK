@@ -1,4 +1,0 @@
-framework module SequreSDKLite {
-  header "SequreSDKLite-Swift.h"
-  requires objc
-}
