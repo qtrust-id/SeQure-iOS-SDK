@@ -21,13 +21,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SequreSDK",
-            url: "https://github.com/qtrust-id/SeQure-iOS-SDK/releases/download/1.0.1/SequreSDK.xcframework.zip",
-            checksum: "03375ecbe22948fa683b829b278b53a02ec3412fdde84c00f90c3209dd9f48ee"
+            url: "https://github.com/qtrust-id/SeQure-iOS-SDK/releases/download/1.0.2/SequreSDK.xcframework.zip",
+            checksum: "c6bb0e25ecc7d6b764674d8fd6f89fe3fe4ce9c287d3bc71b7aeb763bf0183d6"
         ),
         .binaryTarget(
             name: "SequreSDKLite",
-            url: "https://github.com/qtrust-id/SeQure-iOS-SDK/releases/download/1.0.1/SequreSDKLite.xcframework.zip",
-            checksum: "e543dc9755cc84a767ce7cdbe02340a9bfdbee6c07e6391bdc717bec7f63530c"
+            url: "https://github.com/qtrust-id/SeQure-iOS-SDK/releases/download/1.0.2/SequreSDKLite.xcframework.zip",
+            checksum: "939fdd0973a2b9e110fc8c439cc3e858f48361df64901f614199b467cf7ffc9b"
         ),
     ],
 )
