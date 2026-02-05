@@ -1,7 +1,20 @@
 # SequreSDK
 
-SequreSDK is the official plugin from Qtrust, used to verify the authenticity of products issued by Qtrust’s clients. This SDK utilizes OpenCV to detect glare in images (which can indicate a forged QR code) and leverages TensorFlow for object detection during camera sessions. The SDK also allows users to fully customize the views for each result page and loading process.
+**SequreSDK** is the official plugin from **Qtrust**, used to verify the authenticity of products issued by Qtrust’s clients.
 
+This SDK:
+- Uses **OpenCV** to detect glare in images (which may indicate forged QR codes)
+- Leverages **TensorFlow** for object detection during camera sessions
+- Allows **full UI customization** for result pages and loading states
+
+---
+
+## Tutorial (Bahasa Indonesia)
+
+Bagi pengguna yang ingin mempelajari integrasi SequreSDK lebih lanjut dalam Bahasa Indonesia, silakan kunjungi dokumentasi kami di Notion:
+[SequreSDK Docs (Bahasa Indonesia)](https://www.notion.so/SequreSDK-Docs-24c1aaaf73bf80e2a858ca5cb446f913)
+
+---
 
 ## Installation
 
@@ -36,5 +49,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Email Support
 
-contact@qtrust.id
-aaronevanjulio@venturo.pro
+📧 contact@qtrust.id  
+📧 aaronevanjulio@venturo.pro
