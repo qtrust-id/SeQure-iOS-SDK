@@ -24,7 +24,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "1.0.2")
+    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "1.0.3")
 ]
 ```
 
@@ -34,6 +34,13 @@ Or in Xcode:
 2. Enter the repository URL: `https://github.com/qtrust-id/SeQure-iOS-SDK.git`
 3. Select the version you want to use
 4. Click **Add Package**
+
+## Permissions
+
+SequreSDK requires camera and location access to function correctly.
+
+- **Camera**: Add `NSCameraUsageDescription` to enable camera sessions.
+- **Location**: Add `NSLocationWhenInUseUsageDescription` or provide a Google Maps API key via `gmapsKey`, depending on your integration needs.
 
 ## Usage
 
