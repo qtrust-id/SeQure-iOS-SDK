@@ -50,9 +50,34 @@ Import the SDK in your Swift files:
 import SequreSDK
 ```
 
-## License
+Prepare the required credentials:
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```swift
+// A unique number used for bundle ID authentication.
+// This value will be provided after registering your app with Qtrust.
+// Please contact the Qtrust admin (qtrust.id) for further registration.
+let uniqueNumber: Int
+
+// The bundle identifier of the client application.
+let bundleID = Bundle.main.object(
+    forInfoDictionaryKey: "CFBundleIdentifier"
+) as? String ?? ""
+```
+
+Initialize the SDK when the app starts (for example, in AppDelegate or @main App):
+
+```swift
+SequreSDKInstance.shared.initialize(
+    // Required credentials.
+    // Both `uniqueNumber` and `bundleID` must be registered with Qtrust beforehand.
+    // Please contact the Qtrust admin (qtrust.id) for registration assistance.
+    uniqueNumber: uniqueNumber,
+    bundleID: bundleID,
+
+    // Use .stag for development and .prod for production
+    flavor: AppEnvironment.isLive ? .prod : .stag
+)
+```
 
 ## Email Support
 
