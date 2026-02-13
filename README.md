@@ -24,7 +24,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "1.0.5")
+    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "1.0.6")
 ]
 ```
 
@@ -84,9 +84,13 @@ SequreSDKInstance.shared.initialize(
 You can customize the `URLSessionConfiguration` used by the SDK:
 
 ```swift
-// Make sure call in main thread
-NetworkServiceSDK.shared.setSessionConfiguration { config in
-    // Configure your URLSessionConfiguration here
+// Make sure call in init function
+init() {
+    Task {
+        await NetworkServiceSDK.shared.configure(
+            with: [<ClassLogger.self>]
+        )
+    }
 }
 ```
 
