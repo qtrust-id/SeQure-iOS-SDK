@@ -24,7 +24,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "1.1.5")
+    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "1.1.6")
 ]
 ```
 
