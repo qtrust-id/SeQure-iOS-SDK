@@ -24,7 +24,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "2.1.0")
+    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "2.1.1")
 ]
 ```
 
@@ -57,11 +57,6 @@ Prepare the required credentials:
 // This value will be provided after registering your app with Qtrust.
 // Please contact the Qtrust admin (qtrust.id) for further registration.
 let uniqueNumber: Int
-
-// The bundle identifier of the client application.
-let bundleID = Bundle.main.object(
-    forInfoDictionaryKey: "CFBundleIdentifier"
-) as? String ?? ""
 ```
 
 Initialize the SDK when the app starts (for example, in AppDelegate or @main App):
@@ -72,7 +67,6 @@ SequreSDKInstance.shared.initialize(
     // Both `uniqueNumber` and `bundleID` must be registered with Qtrust beforehand.
     // Please contact the Qtrust admin (qtrust.id) for registration assistance.
     uniqueNumber: uniqueNumber,
-    bundleID: bundleID,
 
     // Use .stag for development and .prod for production
     flavor: AppEnvironment.isLive ? .prod : .stag
