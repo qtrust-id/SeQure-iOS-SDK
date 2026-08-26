@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SequreSDK",
-            url: "https://github.com/qtrust-id/SeQure-iOS-SDK/releases/download/3.0.0-beta.1/SequreSDK.xcframework.zip",
-            checksum: "b0c0adf76a73b79370235973089cf056ad8ecb3c3ec110ba9cdcb4273ff455c5"
+            url: "https://github.com/qtrust-id/SeQure-iOS-SDK/releases/download/3.0.0-beta.2/SequreSDK.xcframework.zip",
+            checksum: "a9d0acee37648e9b5b47e8ec4f389c97bcb8d59b08783728855f4f9e2139e148"
         ),
     ],
     swiftLanguageVersions: [
