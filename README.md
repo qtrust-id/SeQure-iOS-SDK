@@ -1,11 +1,23 @@
-# SequreSDK
+# SequreSDK (iOS)
 
-**SequreSDK** is the official plugin from **Qtrust**, used to verify the authenticity of products issued by Qtrust’s clients.
+**SequreSDK** is the official plugin from **Qtrust**, used to verify the authenticity of products issued by Qtrust's clients.
 
-This SDK:
-- Uses **OpenCV** to detect glare in images (which may indicate forged QR codes)
-- Leverages **TensorFlow** for object detection during camera sessions
-- Allows **full UI customization** for result pages and loading states
+This SDK provides on-device:
+- QR/barcode scanning and detection
+- Genuine/fake object recognition powered by a bundled Core ML model (YOLO11)
+- Glare detection using native Accelerate vImage
+- Distance/size estimation
+- Full UI customization for result pages and loading states
+
+Distributed as an XCFramework with **zero 3rd-party dependencies**.
+
+> [!NOTE]
+> **Beta release** — this version (`3.0.0-beta.1`) ships ahead of the stable release. APIs may still change.
+
+## Requirements
+
+- iOS 15.0+
+- Xcode 16+ / Swift 6
 
 ---
 
@@ -24,7 +36,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "2.3.0")
+    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "3.0.0-beta.1")
 ]
 ```
 
