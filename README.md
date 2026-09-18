@@ -11,9 +11,6 @@ This SDK provides on-device:
 
 Distributed as an XCFramework with **zero 3rd-party dependencies**.
 
-> [!NOTE]
-> **Beta release** — this version (`3.0.0-beta.7`) ships ahead of the stable release. APIs may still change.
-
 ## Requirements
 
 - iOS 15.0+
@@ -36,7 +33,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "3.0.0-beta.7")
+    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "3.0.0")
 ]
 ```
 
