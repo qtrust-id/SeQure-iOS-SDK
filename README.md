@@ -3,6 +3,7 @@
 **SequreSDK** is the official plugin from **Qtrust**, used to verify the authenticity of products issued by Qtrust's clients.
 
 This SDK provides on-device:
+
 - QR/barcode scanning and detection
 - Genuine/fake object recognition powered by a bundled Core ML model (YOLO11)
 - Glare detection using native Accelerate vImage
@@ -33,7 +34,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "3.0.1")
+    .package(url: "https://github.com/qtrust-id/SeQure-iOS-SDK.git", from: "3.0.2")
 ]
 ```
 
@@ -90,9 +91,9 @@ You can customize the `URLSessionConfiguration` used by the SDK:
 // Make sure call in init function
 init() {
     Task {
-        // recommended 
+        // recommended
         await NetworkServiceSDK.shared.configure(
-            with: [<ClassLogger.self>] 
+            with: [<ClassLogger.self>]
         )
 
         // alternative
@@ -105,4 +106,4 @@ init() {
 
 ## Email Support
 
-📧 contact@qtrust.id 
+📧 contact@qtrust.id
